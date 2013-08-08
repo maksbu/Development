@@ -13,10 +13,18 @@
 @property (weak, nonatomic) IBOutlet UIImageView *mainImage;
 @property (weak, nonatomic) IBOutlet UIImageView *tempImage;
 
-@property (weak, nonatomic) IBOutlet UIButton *pencilBtn;
-
+- (void)touchesBegan;
 
 - (IBAction)pencilPressed:(id)sender;
 - (IBAction)eraserPrecced:(id)sender;
 
+
+
 @end
+
+
+float red;
+float green;
+float blue;
+float brush;
+float opacity;

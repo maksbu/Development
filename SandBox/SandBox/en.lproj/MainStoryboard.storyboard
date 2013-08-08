@@ -132,7 +132,7 @@
                                     <constraint firstAttribute="width" constant="28" id="i3y-Xy-Up0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="Brown.png">
+                                <state key="normal" image="Brown.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -143,12 +143,12 @@
                                     <action selector="pencilPressed:" destination="2" eventType="touchUpInside" id="y8s-M2-YlO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UO4-Gj-t9f">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvi-gd-Vmj">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="28" id="2Wu-F1-hWZ"/>
+                                    <constraint firstAttribute="width" constant="28" id="IsW-YQ-ahG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="DarkOrange.png">
+                                <state key="normal" image="DarkOrange.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -156,15 +156,15 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="pencilPressed:" destination="2" eventType="touchUpInside" id="TrG-5F-HKY"/>
+                                    <action selector="pencilPressed:" destination="2" eventType="touchUpInside" id="iFk-wy-NsC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2r-TU-cjg">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okj-Ej-fVz">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="28" id="WJl-pH-qDG"/>
+                                    <constraint firstAttribute="width" constant="28" id="uX6-Uv-a7c"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="Yellow.png">
+                                <state key="normal" image="Yellow.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -172,16 +172,15 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="pencilPressed:" destination="2" eventType="touchUpInside" id="Zmq-bC-ISU"/>
+                                    <action selector="pencilPressed:" destination="2" eventType="touchUpInside" id="FEl-Lh-rzH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Get-9V-uah">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbB-3Z-iPn">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="87" id="0j1-Lw-ulB"/>
-                                    <constraint firstAttribute="width" constant="28" id="piR-kt-ymx"/>
+                                    <constraint firstAttribute="width" constant="28" id="mkk-0d-1bn"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button" image="Eraser.png">
+                                <state key="normal" image="Eraser.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -189,67 +188,56 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="eraserPrecced:" destination="2" eventType="touchUpInside" id="ZGg-tk-4WM"/>
-                                    <action selector="pencilPressed:" destination="2" eventType="touchUpInside" id="raa-9c-uuA"/>
+                                    <action selector="eraserPrecced:" destination="2" eventType="touchUpInside" id="rZI-wq-kbM"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="UO4-Gj-t9f" firstAttribute="baseline" secondItem="o2r-TU-cjg" secondAttribute="baseline" type="default" id="0U4-mZ-hCy"/>
-                            <constraint firstItem="Yzg-ZT-5iz" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="279" id="1Jz-DL-JI4"/>
                             <constraint firstItem="hwF-YI-a43" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="1OK-Mk-EaY"/>
-                            <constraint firstItem="wP9-gs-dMG" firstAttribute="baseline" secondItem="NSV-ld-NFX" secondAttribute="baseline" type="default" id="2Fw-Na-DRw"/>
-                            <constraint firstItem="6pG-II-V09" firstAttribute="baseline" secondItem="yh0-eR-1uX" secondAttribute="baseline" type="default" id="7fR-ZK-89z"/>
+                            <constraint firstItem="yh0-eR-1uX" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="312" id="3Q4-MF-k7A"/>
+                            <constraint firstItem="wP9-gs-dMG" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="143" id="49H-wG-dlI"/>
+                            <constraint firstItem="hvi-gd-Vmj" firstAttribute="top" secondItem="jcy-1F-IDA" secondAttribute="top" type="default" id="5BR-YW-bF2"/>
                             <constraint firstItem="hwF-YI-a43" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="Bpp-dg-eAi"/>
-                            <constraint firstItem="o2r-TU-cjg" firstAttribute="baseline" secondItem="Get-9V-uah" secondAttribute="baseline" type="default" id="CEl-nm-goJ"/>
-                            <constraint firstAttribute="trailing" secondItem="jcy-1F-IDA" secondAttribute="trailing" constant="338" id="EaS-gV-7wE"/>
+                            <constraint firstItem="jcy-1F-IDA" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="353" id="EM4-gD-Add"/>
+                            <constraint firstItem="hvi-gd-Vmj" firstAttribute="bottom" secondItem="jcy-1F-IDA" secondAttribute="bottom" type="default" id="EnX-fu-nUm"/>
                             <constraint firstItem="Yzg-ZT-5iz" firstAttribute="top" secondItem="6pG-II-V09" secondAttribute="top" type="default" id="FW2-yp-hZ7"/>
-                            <constraint firstItem="6pG-II-V09" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="320" id="Fdz-YI-p8n"/>
+                            <constraint firstItem="6pG-II-V09" firstAttribute="bottom" secondItem="yh0-eR-1uX" secondAttribute="bottom" type="default" id="HdK-2M-wcN"/>
                             <constraint firstItem="NSV-ld-NFX" firstAttribute="top" secondItem="sGg-jd-P7d" secondAttribute="top" type="default" id="Id3-Ki-Eos"/>
+                            <constraint firstItem="okj-Ej-fVz" firstAttribute="bottom" secondItem="hvi-gd-Vmj" secondAttribute="bottom" type="default" id="KYb-JK-Ux1"/>
                             <constraint firstItem="gex-5R-BFi" firstAttribute="top" secondItem="wP9-gs-dMG" secondAttribute="top" type="default" id="LML-ZD-8RO"/>
-                            <constraint firstAttribute="trailing" secondItem="UO4-Gj-t9f" secondAttribute="trailing" constant="296" id="MHh-g9-xMJ"/>
-                            <constraint firstItem="wP9-gs-dMG" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="192" id="MXV-tN-IG2"/>
-                            <constraint firstItem="NSV-ld-NFX" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="145" id="N2b-fi-I4S"/>
-                            <constraint firstAttribute="bottom" secondItem="Get-9V-uah" secondAttribute="bottom" constant="39" id="Ns4-Ir-Xar"/>
-                            <constraint firstAttribute="trailing" secondItem="Get-9V-uah" secondAttribute="trailing" constant="209" id="OdQ-LU-a0P"/>
+                            <constraint firstAttribute="trailing" secondItem="MbB-3Z-iPn" secondAttribute="trailing" constant="243" id="NbI-S5-nzU"/>
+                            <constraint firstAttribute="trailing" secondItem="okj-Ej-fVz" secondAttribute="trailing" constant="291" id="Rzm-Ry-DJQ"/>
                             <constraint firstItem="6pG-II-V09" firstAttribute="top" secondItem="yh0-eR-1uX" secondAttribute="top" type="default" id="TBs-p8-401"/>
-                            <constraint firstItem="NSV-ld-NFX" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="UST-Ae-hxr"/>
+                            <constraint firstItem="6pG-II-V09" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="271" id="U81-of-6oZ"/>
+                            <constraint firstItem="okj-Ej-fVz" firstAttribute="top" secondItem="hvi-gd-Vmj" secondAttribute="top" type="default" id="UdB-Qv-eQS"/>
                             <constraint firstItem="bNr-gf-KJ3" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="Vrp-l8-6VN"/>
-                            <constraint firstItem="sGg-jd-P7d" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="97" id="VxW-Ub-NrX"/>
-                            <constraint firstItem="NSV-ld-NFX" firstAttribute="baseline" secondItem="sGg-jd-P7d" secondAttribute="baseline" type="default" id="W91-v6-zGX"/>
-                            <constraint firstItem="UO4-Gj-t9f" firstAttribute="top" secondItem="o2r-TU-cjg" secondAttribute="top" type="default" id="Xw4-Xt-Uec"/>
-                            <constraint firstItem="sGg-jd-P7d" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="Zao-Q6-For"/>
-                            <constraint firstItem="UO4-Gj-t9f" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="aEP-El-OIt"/>
+                            <constraint firstItem="MbB-3Z-iPn" firstAttribute="top" secondItem="okj-Ej-fVz" secondAttribute="top" type="default" id="YIO-iv-tvd"/>
+                            <constraint firstAttribute="bottom" secondItem="sGg-jd-P7d" secondAttribute="bottom" constant="192" id="YRO-dj-yES"/>
                             <constraint firstItem="jcy-1F-IDA" firstAttribute="top" secondItem="yh0-eR-1uX" secondAttribute="top" type="default" id="aPG-If-lbd"/>
                             <constraint firstItem="gex-5R-BFi" firstAttribute="top" secondItem="Yzg-ZT-5iz" secondAttribute="top" type="default" id="aXL-L3-wAn"/>
-                            <constraint firstItem="gex-5R-BFi" firstAttribute="baseline" secondItem="wP9-gs-dMG" secondAttribute="baseline" type="default" id="b14-ii-0vC"/>
-                            <constraint firstItem="Yzg-ZT-5iz" firstAttribute="baseline" secondItem="6pG-II-V09" secondAttribute="baseline" type="default" id="b2f-eL-3ry"/>
-                            <constraint firstItem="o2r-TU-cjg" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="bP6-n6-Qbk"/>
-                            <constraint firstItem="6pG-II-V09" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="crp-V9-I3p"/>
-                            <constraint firstItem="jcy-1F-IDA" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="dyX-pb-p8c"/>
-                            <constraint firstItem="yh0-eR-1uX" firstAttribute="baseline" secondItem="jcy-1F-IDA" secondAttribute="baseline" type="default" id="eAh-fz-Qwq"/>
-                            <constraint firstItem="gex-5R-BFi" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="ete-2h-2ot"/>
+                            <constraint firstAttribute="trailing" secondItem="hvi-gd-Vmj" secondAttribute="trailing" constant="338" id="c2q-kD-qhM"/>
+                            <constraint firstItem="6pG-II-V09" firstAttribute="bottom" secondItem="Yzg-ZT-5iz" secondAttribute="bottom" type="default" id="cJ0-Mw-oVc"/>
                             <constraint firstItem="bNr-gf-KJ3" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="ggd-VQ-qy1"/>
                             <constraint firstItem="NSV-ld-NFX" firstAttribute="top" secondItem="wP9-gs-dMG" secondAttribute="top" type="default" id="hZ9-hm-3YM"/>
-                            <constraint firstItem="Yzg-ZT-5iz" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="hot-WS-BI6"/>
-                            <constraint firstItem="gex-5R-BFi" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="238" id="m7r-Ln-UU9"/>
+                            <constraint firstItem="wP9-gs-dMG" firstAttribute="bottom" secondItem="NSV-ld-NFX" secondAttribute="bottom" type="default" id="kVq-uE-RYa"/>
+                            <constraint firstItem="MbB-3Z-iPn" firstAttribute="bottom" secondItem="okj-Ej-fVz" secondAttribute="bottom" type="default" id="kd3-F6-dwo"/>
+                            <constraint firstItem="Yzg-ZT-5iz" firstAttribute="bottom" secondItem="gex-5R-BFi" secondAttribute="bottom" type="default" id="l4j-Uk-WK6"/>
+                            <constraint firstItem="NSV-ld-NFX" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="96" id="n3x-UO-8fQ"/>
                             <constraint firstItem="hwF-YI-a43" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" type="default" id="nbl-YE-2ZB"/>
-                            <constraint firstItem="yh0-eR-1uX" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="opE-Iv-5Tb"/>
-                            <constraint firstItem="yh0-eR-1uX" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="361" id="qdf-xc-67A"/>
+                            <constraint firstItem="Yzg-ZT-5iz" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="230" id="oIv-qB-gjN"/>
+                            <constraint firstItem="wP9-gs-dMG" firstAttribute="bottom" secondItem="gex-5R-BFi" secondAttribute="bottom" type="default" id="pH5-CI-0bZ"/>
+                            <constraint firstItem="yh0-eR-1uX" firstAttribute="bottom" secondItem="jcy-1F-IDA" secondAttribute="bottom" type="default" id="pci-gX-CBI"/>
+                            <constraint firstItem="gex-5R-BFi" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="189" id="rI4-9O-Uqa"/>
                             <constraint firstItem="bNr-gf-KJ3" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="tDT-jm-jOw"/>
-                            <constraint firstItem="wP9-gs-dMG" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="uir-rz-Yax"/>
-                            <constraint firstAttribute="trailing" secondItem="o2r-TU-cjg" secondAttribute="trailing" constant="255" id="w86-sN-GKf"/>
                             <constraint firstItem="hwF-YI-a43" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="x1k-ie-nbc"/>
-                            <constraint firstItem="Yzg-ZT-5iz" firstAttribute="baseline" secondItem="gex-5R-BFi" secondAttribute="baseline" type="default" id="x3R-Fk-swz"/>
+                            <constraint firstItem="NSV-ld-NFX" firstAttribute="bottom" secondItem="sGg-jd-P7d" secondAttribute="bottom" type="default" id="x6j-4V-X4i"/>
                             <constraint firstItem="bNr-gf-KJ3" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" type="default" id="xEt-KL-yp4"/>
-                            <constraint firstItem="UO4-Gj-t9f" firstAttribute="baseline" secondItem="jcy-1F-IDA" secondAttribute="baseline" type="default" id="ySq-vx-kte"/>
-                            <constraint firstItem="jcy-1F-IDA" firstAttribute="top" secondItem="UO4-Gj-t9f" secondAttribute="top" type="default" id="ycB-8V-ptV"/>
+                            <constraint firstItem="sGg-jd-P7d" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="48" id="ydP-a7-lw8"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="mainImage" destination="hwF-YI-a43" id="FmJ-RD-zgu"/>
-                        <outlet property="pencilBtn" destination="sGg-jd-P7d" id="XzS-jK-eHp"/>
                         <outlet property="tempImage" destination="bNr-gf-KJ3" id="2oA-kp-MiU"/>
                     </connections>
                 </viewController>
@@ -271,21 +259,6 @@
         <image name="Red.png" width="53" height="332"/>
         <image name="Yellow.png" width="53" height="332"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SBXViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SBXViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="eraserPrecced:"/>
-                <relationship kind="action" name="pencilPressed:"/>
-                <relationship kind="outlet" name="mainImage" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pencilBtn" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="tempImage" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
