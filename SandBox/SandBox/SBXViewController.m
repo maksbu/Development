@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pencilPressed:(id)sender {
+}
+
+- (IBAction)eraserPrecced:(id)sender {
+}
 @end

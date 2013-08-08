@@ -10,4 +10,13 @@
 
 @interface SBXViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *mainImage;
+@property (weak, nonatomic) IBOutlet UIImageView *tempImage;
+
+@property (weak, nonatomic) IBOutlet UIButton *pencilBtn;
+
+
+- (IBAction)pencilPressed:(id)sender;
+- (IBAction)eraserPrecced:(id)sender;
+
 @end
