@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C7153217F1953B00BA943D /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7153117F1953B00BA943D /* SwitchViewController.m */; };
 		04EBE70E17B3C4BC007EBAA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBE70D17B3C4BC007EBAA5 /* UIKit.framework */; };
 		04EBE71017B3C4BC007EBAA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBE70F17B3C4BC007EBAA5 /* Foundation.framework */; };
 		04EBE71217B3C4BC007EBAA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBE71117B3C4BC007EBAA5 /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04C7153017F1953B00BA943D /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		04C7153117F1953B00BA943D /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
 		04EBE70A17B3C4BC007EBAA5 /* SandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EBE70D17B3C4BC007EBAA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04EBE70F17B3C4BC007EBAA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -133,6 +136,8 @@
 				04EBE72917B3C4BD007EBAA5 /* SBXViewController.m */,
 				04EBE72517B3C4BD007EBAA5 /* MainStoryboard.storyboard */,
 				04EBE71417B3C4BC007EBAA5 /* Supporting Files */,
+				04C7153017F1953B00BA943D /* SwitchViewController.h */,
+				04C7153117F1953B00BA943D /* SwitchViewController.m */,
 			);
 			path = SandBox;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				04EBE71A17B3C4BC007EBAA5 /* main.m in Sources */,
 				04EBE71E17B3C4BC007EBAA5 /* SBXAppDelegate.m in Sources */,
+				04C7153217F1953B00BA943D /* SwitchViewController.m in Sources */,
 				04EBE72A17B3C4BD007EBAA5 /* SBXViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +403,7 @@
 				04EBE72F17B3C4BD007EBAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
