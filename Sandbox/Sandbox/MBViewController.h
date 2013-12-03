@@ -15,6 +15,9 @@
 @property (weak, nonatomic) IBOutlet UISwitch *leftSwitch;
 @property (weak, nonatomic) IBOutlet UISwitch *rightSwitch;
 @property (weak, nonatomic) IBOutlet UIButton *doSomethingButton;
+@property (weak, nonatomic) IBOutlet UILabel *displayLabel;
+
+
 
 
 - (IBAction)textFieldDoneEditing:(id)sender;
@@ -23,16 +26,6 @@
 - (IBAction)switchChanged:(id)sender;
 - (IBAction)toggleControls:(UISegmentedControl *)sender;
 - (IBAction)buttonPressed:(id)sender;
-
-    // Для таблицы
-    /*
-    <UITableViewDataSource, UITableViewDelegate>
-    @property (copy, nonatomic) NSArray *dwarves;
-    */
-    // --
-
-
-
 
 @end
 
