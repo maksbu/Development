@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041C516418315B9400AE1D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C516318315B9400AE1D87 /* Foundation.framework */; };
+		041C516618315B9400AE1D87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C516518315B9400AE1D87 /* CoreGraphics.framework */; };
+		041C516818315B9400AE1D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C516718315B9400AE1D87 /* UIKit.framework */; };
+		041C516E18315B9400AE1D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041C516C18315B9400AE1D87 /* InfoPlist.strings */; };
+		041C517018315B9400AE1D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C516F18315B9400AE1D87 /* main.m */; };
+		041C517418315B9400AE1D87 /* PPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C517318315B9400AE1D87 /* PPAppDelegate.m */; };
+		041C517718315B9400AE1D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C517518315B9400AE1D87 /* Main.storyboard */; };
+		041C517A18315B9400AE1D87 /* PPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C517918315B9400AE1D87 /* PPViewController.m */; };
+		041C517C18315B9400AE1D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C517B18315B9400AE1D87 /* Images.xcassets */; };
+		041C518318315B9400AE1D87 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C518218315B9400AE1D87 /* XCTest.framework */; };
+		041C518418315B9400AE1D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C516318315B9400AE1D87 /* Foundation.framework */; };
+		041C518518315B9400AE1D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041C516718315B9400AE1D87 /* UIKit.framework */; };
+		041C518D18315B9500AE1D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 041C518B18315B9500AE1D87 /* InfoPlist.strings */; };
+		041C518F18315B9500AE1D87 /* ping_pongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041C518E18315B9500AE1D87 /* ping_pongTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041C518618315B9400AE1D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041C515818315B9400AE1D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041C515F18315B9400AE1D87;
+			remoteInfo = "ping-pong";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041C516018315B9400AE1D87 /* ping-pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ping-pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041C516318315B9400AE1D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041C516518315B9400AE1D87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		041C516718315B9400AE1D87 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		041C516B18315B9400AE1D87 /* ping-pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ping-pong-Info.plist"; sourceTree = "<group>"; };
+		041C516D18315B9400AE1D87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041C516F18315B9400AE1D87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041C517118315B9400AE1D87 /* ping-pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ping-pong-Prefix.pch"; sourceTree = "<group>"; };
+		041C517218315B9400AE1D87 /* PPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPAppDelegate.h; sourceTree = "<group>"; };
+		041C517318315B9400AE1D87 /* PPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPAppDelegate.m; sourceTree = "<group>"; };
+		041C517618315B9400AE1D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041C517818315B9400AE1D87 /* PPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPViewController.h; sourceTree = "<group>"; };
+		041C517918315B9400AE1D87 /* PPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPViewController.m; sourceTree = "<group>"; };
+		041C517B18315B9400AE1D87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		041C518118315B9400AE1D87 /* ping-pongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ping-pongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		041C518218315B9400AE1D87 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		041C518A18315B9500AE1D87 /* ping-pongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ping-pongTests-Info.plist"; sourceTree = "<group>"; };
+		041C518C18315B9500AE1D87 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041C518E18315B9500AE1D87 /* ping_pongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ping_pongTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041C515D18315B9400AE1D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C516618315B9400AE1D87 /* CoreGraphics.framework in Frameworks */,
+				041C516818315B9400AE1D87 /* UIKit.framework in Frameworks */,
+				041C516418315B9400AE1D87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041C517E18315B9400AE1D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C518318315B9400AE1D87 /* XCTest.framework in Frameworks */,
+				041C518518315B9400AE1D87 /* UIKit.framework in Frameworks */,
+				041C518418315B9400AE1D87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041C515718315B9300AE1D87 = {
+			isa = PBXGroup;
+			children = (
+				041C516918315B9400AE1D87 /* ping-pong */,
+				041C518818315B9400AE1D87 /* ping-pongTests */,
+				041C516218315B9400AE1D87 /* Frameworks */,
+				041C516118315B9400AE1D87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041C516118315B9400AE1D87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041C516018315B9400AE1D87 /* ping-pong.app */,
+				041C518118315B9400AE1D87 /* ping-pongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041C516218315B9400AE1D87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041C516318315B9400AE1D87 /* Foundation.framework */,
+				041C516518315B9400AE1D87 /* CoreGraphics.framework */,
+				041C516718315B9400AE1D87 /* UIKit.framework */,
+				041C518218315B9400AE1D87 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041C516918315B9400AE1D87 /* ping-pong */ = {
+			isa = PBXGroup;
+			children = (
+				041C517218315B9400AE1D87 /* PPAppDelegate.h */,
+				041C517318315B9400AE1D87 /* PPAppDelegate.m */,
+				041C517518315B9400AE1D87 /* Main.storyboard */,
+				041C517818315B9400AE1D87 /* PPViewController.h */,
+				041C517918315B9400AE1D87 /* PPViewController.m */,
+				041C517B18315B9400AE1D87 /* Images.xcassets */,
+				041C516A18315B9400AE1D87 /* Supporting Files */,
+			);
+			path = "ping-pong";
+			sourceTree = "<group>";
+		};
+		041C516A18315B9400AE1D87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041C516B18315B9400AE1D87 /* ping-pong-Info.plist */,
+				041C516C18315B9400AE1D87 /* InfoPlist.strings */,
+				041C516F18315B9400AE1D87 /* main.m */,
+				041C517118315B9400AE1D87 /* ping-pong-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		041C518818315B9400AE1D87 /* ping-pongTests */ = {
+			isa = PBXGroup;
+			children = (
+				041C518E18315B9500AE1D87 /* ping_pongTests.m */,
+				041C518918315B9500AE1D87 /* Supporting Files */,
+			);
+			path = "ping-pongTests";
+			sourceTree = "<group>";
+		};
+		041C518918315B9500AE1D87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				041C518A18315B9500AE1D87 /* ping-pongTests-Info.plist */,
+				041C518B18315B9500AE1D87 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041C515F18315B9400AE1D87 /* ping-pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041C519218315B9500AE1D87 /* Build configuration list for PBXNativeTarget "ping-pong" */;
+			buildPhases = (
+				041C515C18315B9400AE1D87 /* Sources */,
+				041C515D18315B9400AE1D87 /* Frameworks */,
+				041C515E18315B9400AE1D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ping-pong";
+			productName = "ping-pong";
+			productReference = 041C516018315B9400AE1D87 /* ping-pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041C518018315B9400AE1D87 /* ping-pongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041C519518315B9500AE1D87 /* Build configuration list for PBXNativeTarget "ping-pongTests" */;
+			buildPhases = (
+				041C517D18315B9400AE1D87 /* Sources */,
+				041C517E18315B9400AE1D87 /* Frameworks */,
+				041C517F18315B9400AE1D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041C518718315B9400AE1D87 /* PBXTargetDependency */,
+			);
+			name = "ping-pongTests";
+			productName = "ping-pongTests";
+			productReference = 041C518118315B9400AE1D87 /* ping-pongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041C515818315B9400AE1D87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = maksburo;
+				TargetAttributes = {
+					041C518018315B9400AE1D87 = {
+						TestTargetID = 041C515F18315B9400AE1D87;
+					};
+				};
+			};
+			buildConfigurationList = 041C515B18315B9400AE1D87 /* Build configuration list for PBXProject "ping-pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041C515718315B9300AE1D87;
+			productRefGroup = 041C516118315B9400AE1D87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041C515F18315B9400AE1D87 /* ping-pong */,
+				041C518018315B9400AE1D87 /* ping-pongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041C515E18315B9400AE1D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C517C18315B9400AE1D87 /* Images.xcassets in Resources */,
+				041C516E18315B9400AE1D87 /* InfoPlist.strings in Resources */,
+				041C517718315B9400AE1D87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041C517F18315B9400AE1D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C518D18315B9500AE1D87 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041C515C18315B9400AE1D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C517418315B9400AE1D87 /* PPAppDelegate.m in Sources */,
+				041C517A18315B9400AE1D87 /* PPViewController.m in Sources */,
+				041C517018315B9400AE1D87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041C517D18315B9400AE1D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C518F18315B9500AE1D87 /* ping_pongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041C518718315B9400AE1D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041C515F18315B9400AE1D87 /* ping-pong */;
+			targetProxy = 041C518618315B9400AE1D87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041C516C18315B9400AE1D87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041C516D18315B9400AE1D87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		041C517518315B9400AE1D87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041C517618315B9400AE1D87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041C518B18315B9500AE1D87 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041C518C18315B9500AE1D87 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041C519018315B9500AE1D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041C519118315B9500AE1D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041C519318315B9500AE1D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ping-pong/ping-pong-Prefix.pch";
+				INFOPLIST_FILE = "ping-pong/ping-pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		041C519418315B9500AE1D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ping-pong/ping-pong-Prefix.pch";
+				INFOPLIST_FILE = "ping-pong/ping-pong-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		041C519618315B9500AE1D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ping-pong.app/ping-pong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ping-pong/ping-pong-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ping-pongTests/ping-pongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		041C519718315B9500AE1D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ping-pong.app/ping-pong";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ping-pong/ping-pong-Prefix.pch";
+				INFOPLIST_FILE = "ping-pongTests/ping-pongTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041C515B18315B9400AE1D87 /* Build configuration list for PBXProject "ping-pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041C519018315B9500AE1D87 /* Debug */,
+				041C519118315B9500AE1D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041C519218315B9500AE1D87 /* Build configuration list for PBXNativeTarget "ping-pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041C519318315B9500AE1D87 /* Debug */,
+				041C519418315B9500AE1D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041C519518315B9500AE1D87 /* Build configuration list for PBXNativeTarget "ping-pongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041C519618315B9500AE1D87 /* Debug */,
+				041C519718315B9500AE1D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041C515818315B9400AE1D87 /* Project object */;
+}
