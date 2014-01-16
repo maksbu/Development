@@ -468,6 +468,7 @@
 				04C7156A17F1989D00BA943D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C7156B17F1989D00BA943D /* Build configuration list for PBXNativeTarget "View SwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +477,7 @@
 				04C7156D17F1989D00BA943D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
