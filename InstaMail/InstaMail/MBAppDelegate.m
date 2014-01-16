@@ -1,8 +1,8 @@
 //
 //  MBAppDelegate.m
-//  Sandbox
+//  InstaMail
 //
-//  Created by Mac on 21.12.13.
+//  Created by Mac on 14.12.13.
 //  Copyright (c) 2013 maksbu. All rights reserved.
 //
 

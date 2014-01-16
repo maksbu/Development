@@ -2,8 +2,8 @@
 //  MBViewController.m
 //  Sandbox
 //
-//  Created by Mac on 25.11.13.
-//  Copyright (c) 2013 buka. All rights reserved.
+//  Created by Mac on 21.12.13.
+//  Copyright (c) 2013 maksbu. All rights reserved.
 //
 
 #import "MBViewController.h"
@@ -14,21 +14,20 @@
 
 @implementation MBViewController
 
+@synthesize bomb;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.slaiderLabel.text = @"50";
     
-    // эксперименты
-    [self sendToDisplay:self];
-
-}
-
-- (void) sendToDisplay:(id)sender {
-    //NSString *myNSStrngVariable = [NSString stringWithFormat:@"непонятно как, но оно работает"];
-    NSString *myNSStrngVariable = [NSString stringWithFormat:@"sender это %@", sender];
-    self.displayLabel.text = myNSStrngVariable;
+    /*
+     объект бомб
+     
+     
+     */
+    // UIImage *bomb = [[UIImage alloc] init];
+    // [bomb ]
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,40 +36,47 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)textFieldDoneEditing:(id)sender {
-    [sender resignFirstResponder];
+//---------- busya code ----------//
+- (void)updateLabelsFromTouches:(NSSet *)touches {
+    NSUInteger numTaps = [[touches anyObject] tapCount];
+    NSString *tapMessage = [[NSString alloc]
+                            initWithFormat:@"%d taps detected", numTaps];
+    self.tapsLabel.text = tapMessage;
+    
+    NSUInteger numTouches = [touches count];
+    NSString *touchMsg = [[NSString alloc] initWithFormat:@"%d touches detected", numTouches];
+    self.touchesLabel.text = touchMsg;
+    
+    
 }
 
-- (IBAction)backgroundtap:(id)sender; {
-    [self.nameField resignFirstResponder];
-    [self.numberField resignFirstResponder];
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    self.messageLabel.text = @"Touches Began";
+    [self updateLabelsFromTouches:touches];
 }
 
-- (IBAction)sliderChanged:(UISlider *)sender {
-    int progress = lroundf(sender.value);
-    self.slaiderLabel.text = [NSString stringWithFormat:@"%d", progress];
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event {
+    self.messageLabel.text = @"Touches Canseled";
+    [self updateLabelsFromTouches:touches];
 }
 
-- (IBAction)switchChanged:(UISwitch*) sender {
-    BOOL setting = sender.isOn;
-    [self.leftSwitch setOn:setting animated:YES];
-    [self.rightSwitch setOn:setting animated:YES];
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+    self.messageLabel.text = @"Touches Ended";
+    [self updateLabelsFromTouches:touches];
 }
 
-- (IBAction)toggleControls:(UISegmentedControl *)sender {
-    // 0 == переключает индекс
-    if (sender.selectedSegmentIndex == 0) {
-        self.leftSwitch.hidden = NO;
-        self.rightSwitch.hidden = NO;
-        self.doSomethingButton.hidden = YES;
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    self.messageLabel.text = @"Drag Detcted";
+    [self updateLabelsFromTouches:touches];
+    
+    NSSet *allTouches = [event allTouches];
+    UITouch *touch = [[allTouches allObjects] objectAtIndex:0];
+    CGPoint touchLocation = [touch locationInView:self.view];
+    
+    if (touch.view == bomb) {
+        bomb.center = touchLocation;
     }
-    else {
-        self.leftSwitch.hidden = YES;
-        self.rightSwitch.hidden = YES;
-        self.doSomethingButton.hidden = NO;
-    }
 }
 
-- (IBAction)buttonPressed:(id)sender {
-}
+
 @end

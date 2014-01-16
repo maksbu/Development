@@ -1,6 +1,6 @@
 //
 //  MBAppDelegate.h
-//  Sandbox
+//  Sandbox-C
 //
 //  Created by Mac on 21.12.13.
 //  Copyright (c) 2013 maksbu. All rights reserved.

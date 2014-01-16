@@ -1,18 +1,18 @@
 //
-//  SandboxTests.m
-//  SandboxTests
+//  TableTests.m
+//  TableTests
 //
-//  Created by Mac on 21.12.13.
-//  Copyright (c) 2013 maksbu. All rights reserved.
+//  Created by Mac on 24.11.13.
+//  Copyright (c) 2013 maksburo. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface SandboxTests : XCTestCase
+@interface TableTests : XCTestCase
 
 @end
 
-@implementation SandboxTests
+@implementation TableTests
 
 - (void)setUp
 {

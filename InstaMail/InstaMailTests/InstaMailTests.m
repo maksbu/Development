@@ -1,18 +1,18 @@
 //
-//  SandboxTests.m
-//  SandboxTests
+//  InstaMailTests.m
+//  InstaMailTests
 //
-//  Created by Mac on 21.12.13.
+//  Created by Mac on 14.12.13.
 //  Copyright (c) 2013 maksbu. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface SandboxTests : XCTestCase
+@interface InstaMailTests : XCTestCase
 
 @end
 
-@implementation SandboxTests
+@implementation InstaMailTests
 
 - (void)setUp
 {

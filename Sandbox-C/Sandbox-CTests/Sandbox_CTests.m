@@ -1,6 +1,6 @@
 //
-//  SandboxTests.m
-//  SandboxTests
+//  Sandbox_CTests.m
+//  Sandbox-CTests
 //
 //  Created by Mac on 21.12.13.
 //  Copyright (c) 2013 maksbu. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface SandboxTests : XCTestCase
+@interface Sandbox_CTests : XCTestCase
 
 @end
 
-@implementation SandboxTests
+@implementation Sandbox_CTests
 
 - (void)setUp
 {

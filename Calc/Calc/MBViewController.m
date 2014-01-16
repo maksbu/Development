@@ -66,6 +66,10 @@
         x = y / x;
         enterFlag = YES;
     }
+    if (operation == 1005) {
+        x = y / x;
+        enterFlag = YES;
+    }
     
     [self calcScreen];
 }

@@ -1,14 +1,14 @@
 //
-//  MBAppDelegate.m
-//  Sandbox
+//  TBLAppDelegate.m
+//  Table
 //
-//  Created by Mac on 21.12.13.
-//  Copyright (c) 2013 maksbu. All rights reserved.
+//  Created by Mac on 24.11.13.
+//  Copyright (c) 2013 maksburo. All rights reserved.
 //
 
-#import "MBAppDelegate.h"
+#import "TBLAppDelegate.h"
 
-@implementation MBAppDelegate
+@implementation TBLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
