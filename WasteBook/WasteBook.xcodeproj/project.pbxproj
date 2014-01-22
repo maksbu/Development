@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040210B3188DA2EC002C2E37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210B2188DA2EC002C2E37 /* Foundation.framework */; };
+		040210B5188DA2EC002C2E37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210B4188DA2EC002C2E37 /* CoreGraphics.framework */; };
+		040210B7188DA2EC002C2E37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210B6188DA2EC002C2E37 /* UIKit.framework */; };
+		040210BD188DA2EC002C2E37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040210BB188DA2EC002C2E37 /* InfoPlist.strings */; };
+		040210BF188DA2EC002C2E37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040210BE188DA2EC002C2E37 /* main.m */; };
+		040210C3188DA2EC002C2E37 /* WBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040210C2188DA2EC002C2E37 /* WBAppDelegate.m */; };
+		040210C6188DA2EC002C2E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040210C4188DA2EC002C2E37 /* Main.storyboard */; };
+		040210C9188DA2ED002C2E37 /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040210C8188DA2ED002C2E37 /* WBViewController.m */; };
+		040210CB188DA2ED002C2E37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040210CA188DA2ED002C2E37 /* Images.xcassets */; };
+		040210D2188DA2ED002C2E37 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210D1188DA2ED002C2E37 /* XCTest.framework */; };
+		040210D3188DA2ED002C2E37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210B2188DA2EC002C2E37 /* Foundation.framework */; };
+		040210D4188DA2ED002C2E37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210B6188DA2EC002C2E37 /* UIKit.framework */; };
+		040210DC188DA2ED002C2E37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040210DA188DA2ED002C2E37 /* InfoPlist.strings */; };
+		040210DE188DA2ED002C2E37 /* WasteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040210DD188DA2ED002C2E37 /* WasteBookTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040210D5188DA2ED002C2E37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040210A7188DA2EC002C2E37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040210AE188DA2EC002C2E37;
+			remoteInfo = WasteBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040210AF188DA2EC002C2E37 /* WasteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040210B2188DA2EC002C2E37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		040210B4188DA2EC002C2E37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		040210B6188DA2EC002C2E37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		040210BA188DA2EC002C2E37 /* WasteBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WasteBook-Info.plist"; sourceTree = "<group>"; };
+		040210BC188DA2EC002C2E37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		040210BE188DA2EC002C2E37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040210C0188DA2EC002C2E37 /* WasteBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WasteBook-Prefix.pch"; sourceTree = "<group>"; };
+		040210C1188DA2EC002C2E37 /* WBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBAppDelegate.h; sourceTree = "<group>"; };
+		040210C2188DA2EC002C2E37 /* WBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBAppDelegate.m; sourceTree = "<group>"; };
+		040210C5188DA2EC002C2E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040210C7188DA2EC002C2E37 /* WBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
+		040210C8188DA2ED002C2E37 /* WBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
+		040210CA188DA2ED002C2E37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		040210D0188DA2ED002C2E37 /* WasteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WasteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040210D1188DA2ED002C2E37 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		040210D9188DA2ED002C2E37 /* WasteBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WasteBookTests-Info.plist"; sourceTree = "<group>"; };
+		040210DB188DA2ED002C2E37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		040210DD188DA2ED002C2E37 /* WasteBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasteBookTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040210AC188DA2EC002C2E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040210B5188DA2EC002C2E37 /* CoreGraphics.framework in Frameworks */,
+				040210B7188DA2EC002C2E37 /* UIKit.framework in Frameworks */,
+				040210B3188DA2EC002C2E37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040210CD188DA2ED002C2E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040210D2188DA2ED002C2E37 /* XCTest.framework in Frameworks */,
+				040210D4188DA2ED002C2E37 /* UIKit.framework in Frameworks */,
+				040210D3188DA2ED002C2E37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040210A6188DA2EC002C2E37 = {
+			isa = PBXGroup;
+			children = (
+				040210B8188DA2EC002C2E37 /* WasteBook */,
+				040210D7188DA2ED002C2E37 /* WasteBookTests */,
+				040210B1188DA2EC002C2E37 /* Frameworks */,
+				040210B0188DA2EC002C2E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040210B0188DA2EC002C2E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040210AF188DA2EC002C2E37 /* WasteBook.app */,
+				040210D0188DA2ED002C2E37 /* WasteBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040210B1188DA2EC002C2E37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				040210B2188DA2EC002C2E37 /* Foundation.framework */,
+				040210B4188DA2EC002C2E37 /* CoreGraphics.framework */,
+				040210B6188DA2EC002C2E37 /* UIKit.framework */,
+				040210D1188DA2ED002C2E37 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		040210B8188DA2EC002C2E37 /* WasteBook */ = {
+			isa = PBXGroup;
+			children = (
+				040210C1188DA2EC002C2E37 /* WBAppDelegate.h */,
+				040210C2188DA2EC002C2E37 /* WBAppDelegate.m */,
+				040210C4188DA2EC002C2E37 /* Main.storyboard */,
+				040210C7188DA2EC002C2E37 /* WBViewController.h */,
+				040210C8188DA2ED002C2E37 /* WBViewController.m */,
+				040210CA188DA2ED002C2E37 /* Images.xcassets */,
+				040210B9188DA2EC002C2E37 /* Supporting Files */,
+			);
+			path = WasteBook;
+			sourceTree = "<group>";
+		};
+		040210B9188DA2EC002C2E37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040210BA188DA2EC002C2E37 /* WasteBook-Info.plist */,
+				040210BB188DA2EC002C2E37 /* InfoPlist.strings */,
+				040210BE188DA2EC002C2E37 /* main.m */,
+				040210C0188DA2EC002C2E37 /* WasteBook-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040210D7188DA2ED002C2E37 /* WasteBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				040210DD188DA2ED002C2E37 /* WasteBookTests.m */,
+				040210D8188DA2ED002C2E37 /* Supporting Files */,
+			);
+			path = WasteBookTests;
+			sourceTree = "<group>";
+		};
+		040210D8188DA2ED002C2E37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040210D9188DA2ED002C2E37 /* WasteBookTests-Info.plist */,
+				040210DA188DA2ED002C2E37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040210AE188DA2EC002C2E37 /* WasteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040210E1188DA2ED002C2E37 /* Build configuration list for PBXNativeTarget "WasteBook" */;
+			buildPhases = (
+				040210AB188DA2EC002C2E37 /* Sources */,
+				040210AC188DA2EC002C2E37 /* Frameworks */,
+				040210AD188DA2EC002C2E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WasteBook;
+			productName = WasteBook;
+			productReference = 040210AF188DA2EC002C2E37 /* WasteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040210CF188DA2ED002C2E37 /* WasteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040210E4188DA2ED002C2E37 /* Build configuration list for PBXNativeTarget "WasteBookTests" */;
+			buildPhases = (
+				040210CC188DA2ED002C2E37 /* Sources */,
+				040210CD188DA2ED002C2E37 /* Frameworks */,
+				040210CE188DA2ED002C2E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040210D6188DA2ED002C2E37 /* PBXTargetDependency */,
+			);
+			name = WasteBookTests;
+			productName = WasteBookTests;
+			productReference = 040210D0188DA2ED002C2E37 /* WasteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040210A7188DA2EC002C2E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MAKSBU;
+				TargetAttributes = {
+					040210CF188DA2ED002C2E37 = {
+						TestTargetID = 040210AE188DA2EC002C2E37;
+					};
+				};
+			};
+			buildConfigurationList = 040210AA188DA2EC002C2E37 /* Build configuration list for PBXProject "WasteBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040210A6188DA2EC002C2E37;
+			productRefGroup = 040210B0188DA2EC002C2E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040210AE188DA2EC002C2E37 /* WasteBook */,
+				040210CF188DA2ED002C2E37 /* WasteBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040210AD188DA2EC002C2E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040210CB188DA2ED002C2E37 /* Images.xcassets in Resources */,
+				040210BD188DA2EC002C2E37 /* InfoPlist.strings in Resources */,
+				040210C6188DA2EC002C2E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040210CE188DA2ED002C2E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040210DC188DA2ED002C2E37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040210AB188DA2EC002C2E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040210C9188DA2ED002C2E37 /* WBViewController.m in Sources */,
+				040210BF188DA2EC002C2E37 /* main.m in Sources */,
+				040210C3188DA2EC002C2E37 /* WBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040210CC188DA2ED002C2E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040210DE188DA2ED002C2E37 /* WasteBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040210D6188DA2ED002C2E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040210AE188DA2EC002C2E37 /* WasteBook */;
+			targetProxy = 040210D5188DA2ED002C2E37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040210BB188DA2EC002C2E37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040210BC188DA2EC002C2E37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		040210C4188DA2EC002C2E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040210C5188DA2EC002C2E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040210DA188DA2ED002C2E37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040210DB188DA2ED002C2E37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040210DF188DA2ED002C2E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		040210E0188DA2ED002C2E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040210E2188DA2ED002C2E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WasteBook/WasteBook-Prefix.pch";
+				INFOPLIST_FILE = "WasteBook/WasteBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		040210E3188DA2ED002C2E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WasteBook/WasteBook-Prefix.pch";
+				INFOPLIST_FILE = "WasteBook/WasteBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		040210E5188DA2ED002C2E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WasteBook.app/WasteBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WasteBook/WasteBook-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WasteBookTests/WasteBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		040210E6188DA2ED002C2E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WasteBook.app/WasteBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WasteBook/WasteBook-Prefix.pch";
+				INFOPLIST_FILE = "WasteBookTests/WasteBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040210AA188DA2EC002C2E37 /* Build configuration list for PBXProject "WasteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040210DF188DA2ED002C2E37 /* Debug */,
+				040210E0188DA2ED002C2E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040210E1188DA2ED002C2E37 /* Build configuration list for PBXNativeTarget "WasteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040210E2188DA2ED002C2E37 /* Debug */,
+				040210E3188DA2ED002C2E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		040210E4188DA2ED002C2E37 /* Build configuration list for PBXNativeTarget "WasteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040210E5188DA2ED002C2E37 /* Debug */,
+				040210E6188DA2ED002C2E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040210A7188DA2EC002C2E37 /* Project object */;
+}
