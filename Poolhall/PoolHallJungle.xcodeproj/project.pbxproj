@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CFAAC018CA3733002A63AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAABF18CA3733002A63AC /* Foundation.framework */; };
+		04CFAAC218CA3733002A63AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAAC118CA3733002A63AC /* CoreGraphics.framework */; };
+		04CFAAC418CA3733002A63AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAAC318CA3733002A63AC /* UIKit.framework */; };
+		04CFAACA18CA3733002A63AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAAC818CA3733002A63AC /* InfoPlist.strings */; };
+		04CFAACC18CA3733002A63AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAACB18CA3733002A63AC /* main.m */; };
+		04CFAAD018CA3733002A63AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAACF18CA3733002A63AC /* AppDelegate.m */; };
+		04CFAAD218CA3733002A63AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAAD118CA3733002A63AC /* Images.xcassets */; };
+		04CFAAD918CA3734002A63AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAAD818CA3734002A63AC /* XCTest.framework */; };
+		04CFAADA18CA3734002A63AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAABF18CA3733002A63AC /* Foundation.framework */; };
+		04CFAADB18CA3734002A63AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAAC318CA3733002A63AC /* UIKit.framework */; };
+		04CFAAE318CA3734002A63AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAAE118CA3734002A63AC /* InfoPlist.strings */; };
+		04CFAAE518CA3734002A63AC /* PoolhallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAE418CA3734002A63AC /* PoolhallTests.m */; };
+		04CFAAF018CA4132002A63AC /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAEF18CA4132002A63AC /* GameView.m */; };
+		04CFAAF318CA4165002A63AC /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAF218CA4165002A63AC /* BallView.m */; };
+		04CFAAFC18CBBB3B002A63AC /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAFB18CBBB3B002A63AC /* GameViewController.m */; };
+		04CFAB0018D62488002A63AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAAFF18D62488002A63AC /* Main.storyboard */; };
+		04CFAB4618D6D19B002A63AC /* HypnosisView.m in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAB4518D6D19B002A63AC /* HypnosisView.m */; };
+		04D43E3518E391110031F3FC /* PoolTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3418E391110031F3FC /* PoolTableView.m */; };
+		04D43E3818E62DAF0031F3FC /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3718E62DAF0031F3FC /* Line.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CFAADC18CA3734002A63AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CFAAB418CA3733002A63AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CFAABB18CA3733002A63AC;
+			remoteInfo = Poolhall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CFAABC18CA3733002A63AC /* PoolHallJungle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolHallJungle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CFAABF18CA3733002A63AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04CFAAC118CA3733002A63AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04CFAAC318CA3733002A63AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04CFAAC718CA3733002A63AC /* PoolHallJungle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoolHallJungle-Info.plist"; sourceTree = "<group>"; };
+		04CFAAC918CA3733002A63AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04CFAACB18CA3733002A63AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CFAACD18CA3733002A63AC /* PoolHallJungle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PoolHallJungle-Prefix.pch"; sourceTree = "<group>"; };
+		04CFAACE18CA3733002A63AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CFAACF18CA3733002A63AC /* AppDelegate.m */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; tabWidth = 1; };
+		04CFAAD118CA3733002A63AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04CFAAD718CA3734002A63AC /* PoolHallJungle.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolHallJungle.Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CFAAD818CA3734002A63AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04CFAAE018CA3734002A63AC /* PoolhallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PoolhallTests-Info.plist"; sourceTree = "<group>"; };
+		04CFAAE218CA3734002A63AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04CFAAE418CA3734002A63AC /* PoolhallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolhallTests.m; sourceTree = "<group>"; };
+		04CFAAEE18CA4132002A63AC /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		04CFAAEF18CA4132002A63AC /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		04CFAAF118CA4165002A63AC /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		04CFAAF218CA4165002A63AC /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		04CFAAFA18CBBB3B002A63AC /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		04CFAAFB18CBBB3B002A63AC /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		04CFAAFF18D62488002A63AC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04CFAB4518D6D19B002A63AC /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypnosisView.m; path = Poolhall/HypnosisView.m; sourceTree = "<group>"; };
+		04CFAB4718D6D207002A63AC /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HypnosisView.h; path = Poolhall/HypnosisView.h; sourceTree = "<group>"; };
+		04D43E3318E391110031F3FC /* PoolTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolTableView.h; sourceTree = "<group>"; };
+		04D43E3418E391110031F3FC /* PoolTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolTableView.m; sourceTree = "<group>"; };
+		04D43E3618E62DAF0031F3FC /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		04D43E3718E62DAF0031F3FC /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CFAAB918CA3733002A63AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CFAAC218CA3733002A63AC /* CoreGraphics.framework in Frameworks */,
+				04CFAAC418CA3733002A63AC /* UIKit.framework in Frameworks */,
+				04CFAAC018CA3733002A63AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CFAAD418CA3733002A63AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CFAAD918CA3734002A63AC /* XCTest.framework in Frameworks */,
+				04CFAADB18CA3734002A63AC /* UIKit.framework in Frameworks */,
+				04CFAADA18CA3734002A63AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CFAAB318CA3733002A63AC = {
+			isa = PBXGroup;
+			children = (
+				04CFAB4718D6D207002A63AC /* HypnosisView.h */,
+				04CFAB4518D6D19B002A63AC /* HypnosisView.m */,
+				04CFAAC518CA3733002A63AC /* PoolHallJungle */,
+				04CFAADE18CA3734002A63AC /* PoolhallTests */,
+				04CFAABE18CA3733002A63AC /* Frameworks */,
+				04CFAABD18CA3733002A63AC /* Products */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 1;
+			usesTabs = 1;
+		};
+		04CFAABD18CA3733002A63AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAABC18CA3733002A63AC /* PoolHallJungle.app */,
+				04CFAAD718CA3734002A63AC /* PoolHallJungle.Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CFAABE18CA3733002A63AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAABF18CA3733002A63AC /* Foundation.framework */,
+				04CFAAC118CA3733002A63AC /* CoreGraphics.framework */,
+				04CFAAC318CA3733002A63AC /* UIKit.framework */,
+				04CFAAD818CA3734002A63AC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04CFAAC518CA3733002A63AC /* PoolHallJungle */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAAFF18D62488002A63AC /* Main.storyboard */,
+				04CFAACE18CA3733002A63AC /* AppDelegate.h */,
+				04CFAACF18CA3733002A63AC /* AppDelegate.m */,
+				04CFAAFA18CBBB3B002A63AC /* GameViewController.h */,
+				04CFAAFB18CBBB3B002A63AC /* GameViewController.m */,
+				04CFAAEE18CA4132002A63AC /* GameView.h */,
+				04CFAAEF18CA4132002A63AC /* GameView.m */,
+				04D43E3618E62DAF0031F3FC /* Line.h */,
+				04D43E3718E62DAF0031F3FC /* Line.m */,
+				04D43E3318E391110031F3FC /* PoolTableView.h */,
+				04D43E3418E391110031F3FC /* PoolTableView.m */,
+				04CFAAF118CA4165002A63AC /* BallView.h */,
+				04CFAAF218CA4165002A63AC /* BallView.m */,
+				04CFAAD118CA3733002A63AC /* Images.xcassets */,
+				04CFAAC618CA3733002A63AC /* Supporting Files */,
+			);
+			name = PoolHallJungle;
+			path = Poolhall;
+			sourceTree = "<group>";
+		};
+		04CFAAC618CA3733002A63AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAAC718CA3733002A63AC /* PoolHallJungle-Info.plist */,
+				04CFAAC818CA3733002A63AC /* InfoPlist.strings */,
+				04CFAACB18CA3733002A63AC /* main.m */,
+				04CFAACD18CA3733002A63AC /* PoolHallJungle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CFAADE18CA3734002A63AC /* PoolhallTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAAE418CA3734002A63AC /* PoolhallTests.m */,
+				04CFAADF18CA3734002A63AC /* Supporting Files */,
+			);
+			path = PoolhallTests;
+			sourceTree = "<group>";
+		};
+		04CFAADF18CA3734002A63AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAAE018CA3734002A63AC /* PoolhallTests-Info.plist */,
+				04CFAAE118CA3734002A63AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CFAABB18CA3733002A63AC /* PoolHallJungle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CFAAE818CA3734002A63AC /* Build configuration list for PBXNativeTarget "PoolHallJungle" */;
+			buildPhases = (
+				04CFAAB818CA3733002A63AC /* Sources */,
+				04CFAAB918CA3733002A63AC /* Frameworks */,
+				04CFAABA18CA3733002A63AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoolHallJungle;
+			productName = Poolhall;
+			productReference = 04CFAABC18CA3733002A63AC /* PoolHallJungle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CFAAD618CA3733002A63AC /* PoolHallJungle.Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CFAAEB18CA3734002A63AC /* Build configuration list for PBXNativeTarget "PoolHallJungle.Tests" */;
+			buildPhases = (
+				04CFAAD318CA3733002A63AC /* Sources */,
+				04CFAAD418CA3733002A63AC /* Frameworks */,
+				04CFAAD518CA3733002A63AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CFAADD18CA3734002A63AC /* PBXTargetDependency */,
+			);
+			name = PoolHallJungle.Tests;
+			productName = PoolhallTests;
+			productReference = 04CFAAD718CA3734002A63AC /* PoolHallJungle.Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CFAAB418CA3733002A63AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = maksburo;
+				TargetAttributes = {
+					04CFAAD618CA3733002A63AC = {
+						TestTargetID = 04CFAABB18CA3733002A63AC;
+					};
+				};
+			};
+			buildConfigurationList = 04CFAAB718CA3733002A63AC /* Build configuration list for PBXProject "PoolHallJungle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04CFAAB318CA3733002A63AC;
+			productRefGroup = 04CFAABD18CA3733002A63AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CFAABB18CA3733002A63AC /* PoolHallJungle */,
+				04CFAAD618CA3733002A63AC /* PoolHallJungle.Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CFAABA18CA3733002A63AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CFAB0018D62488002A63AC /* Main.storyboard in Resources */,
+				04CFAACA18CA3733002A63AC /* InfoPlist.strings in Resources */,
+				04CFAB4618D6D19B002A63AC /* HypnosisView.m in Resources */,
+				04CFAAD218CA3733002A63AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CFAAD518CA3733002A63AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CFAAE318CA3734002A63AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CFAAB818CA3733002A63AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D43E3518E391110031F3FC /* PoolTableView.m in Sources */,
+				04CFAACC18CA3733002A63AC /* main.m in Sources */,
+				04D43E3818E62DAF0031F3FC /* Line.m in Sources */,
+				04CFAAFC18CBBB3B002A63AC /* GameViewController.m in Sources */,
+				04CFAAF318CA4165002A63AC /* BallView.m in Sources */,
+				04CFAAD018CA3733002A63AC /* AppDelegate.m in Sources */,
+				04CFAAF018CA4132002A63AC /* GameView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CFAAD318CA3733002A63AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CFAAE518CA3734002A63AC /* PoolhallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CFAADD18CA3734002A63AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CFAABB18CA3733002A63AC /* PoolHallJungle */;
+			targetProxy = 04CFAADC18CA3734002A63AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04CFAAC818CA3733002A63AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CFAAC918CA3733002A63AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04CFAAE118CA3734002A63AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04CFAAE218CA3734002A63AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04CFAAE618CA3734002A63AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		04CFAAE718CA3734002A63AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CFAAE918CA3734002A63AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poolhall/PoolHallJungle-Prefix.pch";
+				INFOPLIST_FILE = "Poolhall/PoolHallJungle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PoolHallJungle;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04CFAAEA18CA3734002A63AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poolhall/PoolHallJungle-Prefix.pch";
+				INFOPLIST_FILE = "Poolhall/PoolHallJungle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = PoolHallJungle;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04CFAAEC18CA3734002A63AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poolhall.app/Poolhall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poolhall/Poolhall-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PoolhallTests/PoolhallTests-Info.plist";
+				PRODUCT_NAME = PoolHallJungle.Tests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04CFAAED18CA3734002A63AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poolhall.app/Poolhall";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poolhall/Poolhall-Prefix.pch";
+				INFOPLIST_FILE = "PoolhallTests/PoolhallTests-Info.plist";
+				PRODUCT_NAME = PoolHallJungle.Tests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CFAAB718CA3733002A63AC /* Build configuration list for PBXProject "PoolHallJungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CFAAE618CA3734002A63AC /* Debug */,
+				04CFAAE718CA3734002A63AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CFAAE818CA3734002A63AC /* Build configuration list for PBXNativeTarget "PoolHallJungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CFAAE918CA3734002A63AC /* Debug */,
+				04CFAAEA18CA3734002A63AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CFAAEB18CA3734002A63AC /* Build configuration list for PBXNativeTarget "PoolHallJungle.Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CFAAEC18CA3734002A63AC /* Debug */,
+				04CFAAED18CA3734002A63AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CFAAB418CA3733002A63AC /* Project object */;
+}
