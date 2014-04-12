@@ -21,6 +21,7 @@
 		040210D4188DA2ED002C2E37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 040210B6188DA2EC002C2E37 /* UIKit.framework */; };
 		040210DC188DA2ED002C2E37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 040210DA188DA2ED002C2E37 /* InfoPlist.strings */; };
 		040210DE188DA2ED002C2E37 /* WasteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040210DD188DA2ED002C2E37 /* WasteBookTests.m */; };
+		04CFAAB218BBDC60002A63AC /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CFAAB118BBDC60002A63AC /* HypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		040210D9188DA2ED002C2E37 /* WasteBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WasteBookTests-Info.plist"; sourceTree = "<group>"; };
 		040210DB188DA2ED002C2E37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		040210DD188DA2ED002C2E37 /* WasteBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WasteBookTests.m; sourceTree = "<group>"; };
+		04CFAAB018BBDC60002A63AC /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
+		04CFAAB118BBDC60002A63AC /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				040210C1188DA2EC002C2E37 /* WBAppDelegate.h */,
 				040210C2188DA2EC002C2E37 /* WBAppDelegate.m */,
+				04CFAAB018BBDC60002A63AC /* HypnosisView.h */,
+				04CFAAB118BBDC60002A63AC /* HypnosisView.m */,
 				040210C4188DA2EC002C2E37 /* Main.storyboard */,
 				040210C7188DA2EC002C2E37 /* WBViewController.h */,
 				040210C8188DA2ED002C2E37 /* WBViewController.m */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040210C9188DA2ED002C2E37 /* WBViewController.m in Sources */,
+				04CFAAB218BBDC60002A63AC /* HypnosisView.m in Sources */,
 				040210BF188DA2EC002C2E37 /* main.m in Sources */,
 				040210C3188DA2EC002C2E37 /* WBAppDelegate.m in Sources */,
 			);
@@ -463,6 +469,7 @@
 				040210E3188DA2ED002C2E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		040210E4188DA2ED002C2E37 /* Build configuration list for PBXNativeTarget "WasteBookTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +478,7 @@
 				040210E6188DA2ED002C2E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // WASTEBOOK
+    // устанавливаем значения массива данных таблицы
 	self.wastesDataArray = @[@"Авоська", @"Ашан", @"Саше"];
 }
 
@@ -26,7 +28,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+// HYPNOSISTER
 
+// WASTEBOOK
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [self.wastesDataArray count];

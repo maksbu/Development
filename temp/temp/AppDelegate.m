@@ -1,33 +1,18 @@
 //
-//  WBAppDelegate.m
-//  WasteBook
+//  AppDelegate.m
+//  temp
 //
-//  Created by Mac on 20.01.14.
-//  Copyright (c) 2014 MAKSBU. All rights reserved.
+//  Created by Mac on 24.03.14.
+//  Copyright (c) 2014 maksburo. All rights reserved.
 //
 
-#import "WBAppDelegate.h"
-#import "HypnosisView.h"
+#import "AppDelegate.h"
 
-@implementation WBAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    /* Каждый экземпляр представления включает прямоугольник frame. Фрейм представления определяет размер представления и его позицию относительно суперпредставления. Фрейм представлен структурой CGRect и содержит элементы origin и size (рис. 6.6). Эти элементы также являются структурами. Элемент origin имеет тип CGPoint и включает два элемента типа float: x и y. Элемент size имеет тип CGSize и включает два элемента типа float: width и height. (Структура не является объектом Objective-C, поэтому ей невозможно отправлять сообщения и нельзя объявить ее в качестве указателя.) */
-    // CGRect viewFrame = CGRectMake(160, 240, 100, 150);
-    // HypnosisView *view = [[HypnosisView alloc] initWithFrame:viewFrame];
-    
-    // Создаем представление с размером окна
-    HypnosisView *view = [[HypnosisView alloc] initWithFrame: [[self window] bounds]];
-    // Посылаем сообщение окну создать подпредставление
-    [[self window] addSubview:view];
-    
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 							
