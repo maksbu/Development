@@ -16,6 +16,10 @@ int main(int argc, const char * argv[])
         // insert code here...
         NSLog(@"Hello, World!");
         
+        NSDate *mydate = [NSDate date];
+        NSLog(@"%@", mydate);
+        mydate = nil;
+        
     }
     return 0;
 }

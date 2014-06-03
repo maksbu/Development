@@ -13,7 +13,10 @@
 @property (weak, nonatomic) IBOutlet UILabel *tapsLabel;
 @property (weak, nonatomic) IBOutlet UILabel *touchesLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *bomb;
-
-
+@property (weak, nonatomic) IBOutlet UIView *ball;
 
 @end
+
+float dx;
+float dy;
+float speed;

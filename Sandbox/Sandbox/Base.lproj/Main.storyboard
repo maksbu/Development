@@ -35,15 +35,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bomb.png" translatesAutoresizingMaskIntoConstraints="NO" id="DuS-mx-MEu">
+                            <imageView alpha="0.19999999999999968" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bomb.png" translatesAutoresizingMaskIntoConstraints="NO" id="DuS-mx-MEu">
                                 <rect key="frame" x="76" y="194" width="169" height="254"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.72318005760000004" green="0.88637766019999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.89889991283416748" green="0.89887303113937378" blue="0.89888828992843628" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncs-sR-V7H">
+                                <rect key="frame" x="152" y="276" width="16" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="ball" destination="ncs-sR-V7H" id="GPf-3E-MMS"/>
                         <outlet property="bomb" destination="DuS-mx-MEu" id="3Uu-hH-xuC"/>
                         <outlet property="messageLabel" destination="g4z-M4-bpS" id="CSh-rk-qkv"/>
                         <outlet property="tapsLabel" destination="oRA-Hf-ofg" id="pwc-oy-P0K"/>
@@ -52,6 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="37" y="29"/>
         </scene>
     </scenes>
     <resources>
