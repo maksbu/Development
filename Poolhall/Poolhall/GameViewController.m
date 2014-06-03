@@ -12,9 +12,11 @@
 
 int tblX1, tblY1, tblX2, tblY2;
 float dx, dy, speed, ds;
-NSTimer *timer;
-CGPoint sightingLineBegin, sightingLineEnd;
+float Xres, Yres, speedLength, angleValue, angleValueInDegrees, touchdx, touchdy;
 
+CGPoint drawLineBegin, drawLineEnd, sightingLineBegin, sightingLineEnd, ballCurrentLocation;
+
+NSTimer *timer;
 NSString *stringToDisplay;
 
 
@@ -34,144 +36,117 @@ NSString *stringToDisplay;
 				// На основе этого рассчитать параметры dx и dy
 
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+- (void)viewDidLoad {
+				[super viewDidLoad];
 				[self reset];
 				[self start];
-				
-				[_mainGameView makeLinesData];
-				
+				[_infoLayer makeLinesData];
 }
 
-- (void)reset
-{
+- (void)reset {
 				// TODO задать размеры стола
 				// Получаем габариты стола
 				CGRect poolTableBounds = [_poolTable bounds];
-				tblX1 = poolTableBounds.origin.x;
-				tblY1 = poolTableBounds.origin.y;
-				tblX2 = poolTableBounds.size.width;
-				tblY2 = poolTableBounds.size.height;
-				
-    // задаем направление мячика
-				dx = 1.0;
-				dy = -0.01;
+				tblX1 = poolTableBounds.origin.x; tblY1 = poolTableBounds.origin.y;	tblX2 = poolTableBounds.size.width; tblY2 = poolTableBounds.size.height;
+    // задаем направление мячика и скорость
+				dx = 1.0; dy = -1; speed = 3; ds = 0.003;
 				// перемещаем точку в случайное положение в области центра
 				_ball.center = CGPointMake(300, 300);
-				// сбрасываем скорость
-				speed = 3;
-				ds = 0.003;
-				
-				// пишем все в лэйбл
-				stringToDisplay = [NSString stringWithFormat:@"dx=%f",dx];
-				_display.text = stringToDisplay;
-				
-				//NSLog(@"tx = %i, ty = %i", tx, ty);
-}
+				//[InfoView showObjectInfo:&_ball];
+				}
 
-- (void)animate
-{
+- (void)animate {
 				// проверка столкновения мячика c границами стола
-				if ((_ball.center.x > tblX2 - 15) || (_ball.center.x < tblX1 + 15)) {
-								dx = -dx;
-								speed = speed - ds*5;
-				}
-				if ((_ball.center.y > tblY2 - 15) || (_ball.center.y < tblY1 + 15)) {
-								dy = -dy;
-				}
-
-				
-				if ( speed <= 0 ) {
-								[self stop];
-								//NSLog(@"stop");
-				}
+				if ((_ball.center.x > tblX2 - 15) || (_ball.center.x < tblX1 + 15)) { dx = -dx; speed = speed - ds*5; }
+				if ((_ball.center.y > tblY2 - 15) || (_ball.center.y < tblY1 + 15)) { dy = -dy; }
+				if ( speed <= 0 ) { [self stop]; }
 				
 				//замедляем шарик
 				speed = speed - ds;
 				
-				//NSLog(@"ds = %f", ds);
-				
 				// перемещаем мячик в новую позицию в зависимости от направления и скорости движения
     _ball.center = CGPointMake(_ball.center.x + dx*speed,	_ball.center.y + dy*speed);
 				
-				stringToDisplay = [NSString stringWithFormat:@"x=%f\ny=%f\ndx=%f\ndy=%f\nspeed=%f", _ball.center.x, _ball.center.y, dx , dy, speed];
-				[_display setText:stringToDisplay];
-				[_debugTextView setText:stringToDisplay];
-
-}
-
-- (void)start
-{
-    if (timer == nil)
-    {
-								//создаем анимационный таймер
-								timer = [NSTimer
-																		scheduledTimerWithTimeInterval: 1.0/60.0
-																		target: self
-																		selector: @selector(animate)
-																		userInfo: NULL
-																		repeats: YES];
+				// пишем в дебаг-вью
+				//[_debugInfoBallX setText:[NSString stringWithFormat:@"%f", _ball.center.x]];
+				//[_debugInfoBallY setText:[NSString stringWithFormat:@"%f", _ball.center.y]];
+				//[_debugInfoBallDX setText:[NSString stringWithFormat:@"%f", dx]];
+				//[_debugInfoBallDY setText:[NSString stringWithFormat:@"%f", dy]];
 				}
-				// отображаем мячик
-				_ball.hidden = NO;
-}
 
-- (void)stop
-
-{
-				if (timer != nil)
-				{
-								[timer invalidate];
-								timer = nil;
+- (void)endTouches:(NSSet *)touches {
+    for (UITouch *touch in touches) {
+								touchdx = Xres/speedLength; touchdy = Yres/speedLength;
+								//speed = 3;
+								//[_debugInfoBallDX setText:[NSString stringWithFormat:@"%f", dx]]; [_debugInfoBallDY setText:[NSString stringWithFormat:@"%f", dy]];
+								
+								//NSValue *key = [NSValue valueWithNonretainedObject:t];
+								//Line *line = [linesInProcess objectForKey:key];
+								// Если двойной тап, 'line' примет значение nil,
+								// не добавляйте ее в массив
+								//if (line) {
+								//[completeLines addObject:line];
+								//[linesInProcess removeObjectForKey:key]; }
 				}
-				// скрываем мячик
-				//_ball.hidden = YES;
+    // Перерисовывание
+				//[self setNeedsDisplay];
 }
 
+- (void)start {
+				if (timer == nil) {
+								timer = [NSTimer scheduledTimerWithTimeInterval: 1.0/60.0 target:self selector:@selector(animate) userInfo:NULL repeats:YES]; }
+				_ball.hidden = NO; }
+
+- (void)stop {
+				if (timer != nil) {
+								[timer invalidate]; timer = nil; }
+				_ball.hidden = YES; }
 
 
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    for (UITouch *touch in touches) {
+								// Пишем лог
+								//CGPoint location = [touch locationInView:_mainGameView];
+								//[_debugInfoTouchBeginX setText:[NSString stringWithFormat:@"%f", location.x]];
+								//[_debugInfoTouchBeginY setText:[NSString stringWithFormat:@"%f", location.y]];
+								
+								// Узнаем текущее положение мяча
+								ballCurrentLocation = _ball.center;
+				}
+}
 
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+				for (UITouch *touch in touches) {
+								// Пишем лог
+								CGPoint location = [touch locationInView:_mainGameView];
+								//[_debugInfoTouchEndX setText:[NSString stringWithFormat:@"%f", location.x]];
+								//[_debugInfoTouchEndY setText:[NSString stringWithFormat:@"%f", location.y]];
+								Xres = location.x - drawLineBegin.x;
+								Yres = location.y - drawLineBegin.y;
+								speedLength = hypot(Xres,Yres);
+								//[_debugInfoTouchLength setText:[NSString stringWithFormat:@"%f", speedLength]];
+								angleValue = acos(Xres/speedLength);
+								angleValueInDegrees = angleValue * 180 / M_PI;
+								//[_debugInfoTouchAngle setText:[NSString stringWithFormat:@"%f", angleValueInDegrees]];
+								
+								touchdx = Xres/speedLength;
+								touchdy = Yres/speedLength;
+								//[_debugInfoBallDX setText:[NSString stringWithFormat:@"%f", touchdx]];
+								//[_debugInfoBallDY setText:[NSString stringWithFormat:@"%f", touchdy]];
+				}
+}
 
-//// Обрабатываем мультитач и рисуем прицельную линию
-//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//				//NSLog(@"touchesBegan");
-//				// создаем переменные для записи начальной и конечной точки,
-//				//
-//				// перебираем все элементы касания
-//				for (UITouch *touch in touches)
-//				{
-//								// получаем точку касания в пределах вида
-//								sightingLineBegin = [touch locationInView: self.view];
-//								NSLog(@"x1 = %f, y1 = %f", sightingLineBegin.x, sightingLineBegin.y);
-//					}
-//}
-//- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//				//NSLog(@"touchesMoved");
-//				// перебираем все элементы касания
-//				for (UITouch *touch in touches)
-//				{
-//								// получаем точку касания в пределах вида
-//								sightingLineEnd = [touch locationInView: self.view];
-//								NSLog(@"x2 = %f, y2 = %f", sightingLineEnd.x, sightingLineEnd.y);
-//								CGRect rectForGameView;
-//								rectForGameView.origin.x = sightingLineBegin.x;
-//								rectForGameView.origin.y = sightingLineBegin.y;
-//								rectForGameView.size.width = sightingLineEnd.x;
-//								rectForGameView.size.height = sightingLineEnd.y;
-//								[_mainGameView drawRect:rectForGameView];
-//				}
-//}
-//- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//				//NSLog(@"touchesEnded");
-//}
-//- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//				//NSLog(@"touchesCancelled");
-//}
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+				[self endTouches:touches];
+}
+
+- (void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+				[self endTouches:touches];
+}
 
 
 @end

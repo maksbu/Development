@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453673819279C5C004F104A /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453673719279C5C004F104A /* SwitchViewController.m */; };
+		0453673F192A6B88004F104A /* LabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453673D192A6B88004F104A /* LabViewController.m */; };
 		04CFAAC018CA3733002A63AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAABF18CA3733002A63AC /* Foundation.framework */; };
 		04CFAAC218CA3733002A63AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAAC118CA3733002A63AC /* CoreGraphics.framework */; };
 		04CFAAC418CA3733002A63AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CFAAC318CA3733002A63AC /* UIKit.framework */; };
@@ -26,6 +28,8 @@
 		04CFAB4618D6D19B002A63AC /* HypnosisView.m in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAB4518D6D19B002A63AC /* HypnosisView.m */; };
 		04D43E3518E391110031F3FC /* PoolTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3418E391110031F3FC /* PoolTableView.m */; };
 		04D43E3818E62DAF0031F3FC /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3718E62DAF0031F3FC /* Line.m */; };
+		04D43E3A191014A60031F3FC /* GameView.m.old in Resources */ = {isa = PBXBuildFile; fileRef = 04D43E39191014A60031F3FC /* GameView.m.old */; };
+		04D43E3D19195E9B0031F3FC /* InfoLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3C19195E9B0031F3FC /* InfoLayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0453673619279C5C004F104A /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		0453673719279C5C004F104A /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		0453673C192A6B88004F104A /* LabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabViewController.h; sourceTree = "<group>"; };
+		0453673D192A6B88004F104A /* LabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabViewController.m; sourceTree = "<group>"; };
 		04CFAABC18CA3733002A63AC /* PoolHallJungle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolHallJungle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CFAABF18CA3733002A63AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04CFAAC118CA3733002A63AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +76,9 @@
 		04D43E3418E391110031F3FC /* PoolTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolTableView.m; sourceTree = "<group>"; };
 		04D43E3618E62DAF0031F3FC /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
 		04D43E3718E62DAF0031F3FC /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		04D43E39191014A60031F3FC /* GameView.m.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameView.m.old; sourceTree = "<group>"; };
+		04D43E3B19195E9B0031F3FC /* InfoLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoLayerView.h; sourceTree = "<group>"; };
+		04D43E3C19195E9B0031F3FC /* InfoLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoLayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +105,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04536735192763E0004F104A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAAFA18CBBB3B002A63AC /* GameViewController.h */,
+				04CFAAFB18CBBB3B002A63AC /* GameViewController.m */,
+				04CFAAEE18CA4132002A63AC /* GameView.h */,
+				04CFAAEF18CA4132002A63AC /* GameView.m */,
+				04D43E39191014A60031F3FC /* GameView.m.old */,
+				04D43E3B19195E9B0031F3FC /* InfoLayerView.h */,
+				04D43E3C19195E9B0031F3FC /* InfoLayerView.m */,
+				04D43E3618E62DAF0031F3FC /* Line.h */,
+				04D43E3718E62DAF0031F3FC /* Line.m */,
+				04D43E3318E391110031F3FC /* PoolTableView.h */,
+				04D43E3418E391110031F3FC /* PoolTableView.m */,
+				04CFAAF118CA4165002A63AC /* BallView.h */,
+				04CFAAF218CA4165002A63AC /* BallView.m */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		04536741192A6BE8004F104A /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				04CFAB4518D6D19B002A63AC /* HypnosisView.m */,
+				04CFAB4718D6D207002A63AC /* HypnosisView.h */,
+				0453673C192A6B88004F104A /* LabViewController.h */,
+				0453673D192A6B88004F104A /* LabViewController.m */,
+			);
+			name = Lab;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		04CFAAB318CA3733002A63AC = {
 			isa = PBXGroup;
 			children = (
-				04CFAB4718D6D207002A63AC /* HypnosisView.h */,
-				04CFAB4518D6D19B002A63AC /* HypnosisView.m */,
 				04CFAAC518CA3733002A63AC /* PoolHallJungle */,
 				04CFAADE18CA3734002A63AC /* PoolhallTests */,
 				04CFAABE18CA3733002A63AC /* Frameworks */,
@@ -133,18 +174,12 @@
 			isa = PBXGroup;
 			children = (
 				04CFAAFF18D62488002A63AC /* Main.storyboard */,
+				0453673619279C5C004F104A /* SwitchViewController.h */,
+				0453673719279C5C004F104A /* SwitchViewController.m */,
 				04CFAACE18CA3733002A63AC /* AppDelegate.h */,
 				04CFAACF18CA3733002A63AC /* AppDelegate.m */,
-				04CFAAFA18CBBB3B002A63AC /* GameViewController.h */,
-				04CFAAFB18CBBB3B002A63AC /* GameViewController.m */,
-				04CFAAEE18CA4132002A63AC /* GameView.h */,
-				04CFAAEF18CA4132002A63AC /* GameView.m */,
-				04D43E3618E62DAF0031F3FC /* Line.h */,
-				04D43E3718E62DAF0031F3FC /* Line.m */,
-				04D43E3318E391110031F3FC /* PoolTableView.h */,
-				04D43E3418E391110031F3FC /* PoolTableView.m */,
-				04CFAAF118CA4165002A63AC /* BallView.h */,
-				04CFAAF218CA4165002A63AC /* BallView.m */,
+				04536741192A6BE8004F104A /* Lab */,
+				04536735192763E0004F104A /* Game */,
 				04CFAAD118CA3733002A63AC /* Images.xcassets */,
 				04CFAAC618CA3733002A63AC /* Supporting Files */,
 			);
@@ -259,6 +294,7 @@
 			files = (
 				04CFAB0018D62488002A63AC /* Main.storyboard in Resources */,
 				04CFAACA18CA3733002A63AC /* InfoPlist.strings in Resources */,
+				04D43E3A191014A60031F3FC /* GameView.m.old in Resources */,
 				04CFAB4618D6D19B002A63AC /* HypnosisView.m in Resources */,
 				04CFAAD218CA3733002A63AC /* Images.xcassets in Resources */,
 			);
@@ -283,8 +319,11 @@
 				04CFAACC18CA3733002A63AC /* main.m in Sources */,
 				04D43E3818E62DAF0031F3FC /* Line.m in Sources */,
 				04CFAAFC18CBBB3B002A63AC /* GameViewController.m in Sources */,
+				04D43E3D19195E9B0031F3FC /* InfoLayerView.m in Sources */,
 				04CFAAF318CA4165002A63AC /* BallView.m in Sources */,
+				0453673F192A6B88004F104A /* LabViewController.m in Sources */,
 				04CFAAD018CA3733002A63AC /* AppDelegate.m in Sources */,
+				0453673819279C5C004F104A /* SwitchViewController.m in Sources */,
 				04CFAAF018CA4132002A63AC /* GameView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

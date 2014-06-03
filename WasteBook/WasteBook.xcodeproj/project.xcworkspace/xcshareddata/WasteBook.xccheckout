@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3D229A41-05E9-4CC7-8451-D3A6AE1682E9</string>
+	<string>55413B43-9F7E-42CC-8D8E-102BB3E7C12B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>WasteBook</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>ACF25AB8-88AA-4401-8D6D-4C0A5CACAAAC</key>
+		<key>A5A84C35-25A4-4AAC-8609-3DA4DF64A596</key>
 		<string>https://github.com/maksbu/Development.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>WasteBook/WasteBook.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>ACF25AB8-88AA-4401-8D6D-4C0A5CACAAAC</key>
+		<key>A5A84C35-25A4-4AAC-8609-3DA4DF64A596</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>ACF25AB8-88AA-4401-8D6D-4C0A5CACAAAC</string>
+	<string>A5A84C35-25A4-4AAC-8609-3DA4DF64A596</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>ACF25AB8-88AA-4401-8D6D-4C0A5CACAAAC</string>
+			<string>A5A84C35-25A4-4AAC-8609-3DA4DF64A596</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Development</string>
 		</dict>

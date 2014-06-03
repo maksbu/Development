@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "GameView.h"
+#import "InfoLayerView.h"
 #import "PoolTableView.h"
 #import "BallView.h"
 
@@ -24,12 +25,9 @@
 
 @interface GameViewController : UIViewController
 
-
 @property (weak, nonatomic) IBOutlet GameView *mainGameView;
+@property (weak, nonatomic) IBOutlet InfoLayerView *infoLayer;
 @property (weak, nonatomic) IBOutlet PoolTableView *poolTable;
 @property (weak, nonatomic) IBOutlet BallView *ball;
-
-@property (weak, nonatomic) IBOutlet UILabel *display;
-@property (weak, nonatomic) IBOutlet UITextView *debugTextView;
 
 @end

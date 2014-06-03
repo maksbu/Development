@@ -9,13 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface GameView : UIView
-{
-				NSMutableDictionary *linesInProcess;
-				NSMutableArray *completeLines;
-}
 
-- (void)clearAll;
-- (void)endTouches:(NSSet *)touches;
-- (void)makeLinesData;
 
 @end
