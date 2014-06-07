@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4CB1BB5C-FE7C-4F67-A0A6-B0BA41086B43</string>
+	<string>093A957F-9E10-48AC-9BED-70ECE93498DD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Sandbox</string>
+	<string>applab</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D6852E5C-3CC3-4525-95A8-5211ABA54FA0</key>
+		<key>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</key>
 		<string>https://github.com/maksbu/Development.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Sandbox/Sandbox.xcodeproj/project.xcworkspace</string>
+	<string>applab/applab.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D6852E5C-3CC3-4525-95A8-5211ABA54FA0</key>
+		<key>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D6852E5C-3CC3-4525-95A8-5211ABA54FA0</string>
+	<string>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D6852E5C-3CC3-4525-95A8-5211ABA54FA0</string>
+			<string>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Development</string>
 		</dict>
