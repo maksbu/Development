@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0417B030194081C60062AA13 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0417B02F194081C60062AA13 /* Storyboard.storyboard */; };
 		0453674F193799BD004F104A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0453674E193799BD004F104A /* Foundation.framework */; };
 		04536751193799BD004F104A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04536750193799BD004F104A /* CoreGraphics.framework */; };
 		04536753193799BD004F104A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04536752193799BD004F104A /* UIKit.framework */; };
@@ -21,12 +22,20 @@
 		04536774193799BD004F104A /* applabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04536773193799BD004F104A /* applabTests.m */; };
 		0453677F19379EA7004F104A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453677E19379EA7004F104A /* HomeViewController.m */; };
 		0453678D1937A112004F104A /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045367821937A112004F104A /* BallView.m */; };
+<<<<<<< HEAD
 		0453678E1937A112004F104A /* GameView.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 045367841937A112004F104A /* GameView.m.old */; };
 		0453678F1937A112004F104A /* GameViewController.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 045367861937A112004F104A /* GameViewController.m.old */; };
 		045367901937A112004F104A /* InfoLayerView.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 045367881937A112004F104A /* InfoLayerView.m.old */; };
 		045367911937A112004F104A /* Line.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 0453678A1937A112004F104A /* Line.m.old */; };
 		045367921937A112004F104A /* PoolTableView.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 0453678C1937A112004F104A /* PoolTableView.m.old */; };
 		04864DD2193E7EC100FB631E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04864DD1193E7EC100FB631E /* Storyboard.storyboard */; };
+=======
+		0453678E1937A112004F104A /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045367841937A112004F104A /* GameView.m */; };
+		0453678F1937A112004F104A /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045367861937A112004F104A /* GameViewController.m */; };
+		045367901937A112004F104A /* InfoLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045367881937A112004F104A /* InfoLayerView.m */; };
+		045367911937A112004F104A /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453678A1937A112004F104A /* Line.m */; };
+		045367921937A112004F104A /* PoolTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0453678C1937A112004F104A /* PoolTableView.m */; };
+>>>>>>> 3e7fc39d220d3f172221e6d78a55577c41f2a256
 		04DC56981937A95D00D13A30 /* HypnosisView.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 04DC56961937A95D00D13A30 /* HypnosisView.m.old */; };
 		04DC569C1937A9B500D13A30 /* AppDelegate.m.old in Sources */ = {isa = PBXBuildFile; fileRef = 04DC569B1937A9B500D13A30 /* AppDelegate.m.old */; };
 		04DC569F1937C40400D13A30 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC569E1937C40400D13A30 /* HypnosisView.m */; };
@@ -45,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0417B02F194081C60062AA13 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		0453674B193799BD004F104A /* applab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = applab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0453674E193799BD004F104A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04536750193799BD004F104A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +75,7 @@
 		0453677E19379EA7004F104A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		045367811937A112004F104A /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
 		045367821937A112004F104A /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		045367831937A112004F104A /* GameView.h.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameView.h.old; sourceTree = "<group>"; };
 		045367841937A112004F104A /* GameView.m.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameView.m.old; sourceTree = "<group>"; };
 		045367851937A112004F104A /* GameViewController.h.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GameViewController.h.old; sourceTree = "<group>"; };
@@ -76,6 +87,18 @@
 		0453678B1937A112004F104A /* PoolTableView.h.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoolTableView.h.old; sourceTree = "<group>"; };
 		0453678C1937A112004F104A /* PoolTableView.m.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoolTableView.m.old; sourceTree = "<group>"; };
 		04864DD1193E7EC100FB631E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+=======
+		045367831937A112004F104A /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		045367841937A112004F104A /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		045367851937A112004F104A /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		045367861937A112004F104A /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		045367871937A112004F104A /* InfoLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoLayerView.h; sourceTree = "<group>"; };
+		045367881937A112004F104A /* InfoLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoLayerView.m; sourceTree = "<group>"; };
+		045367891937A112004F104A /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		0453678A1937A112004F104A /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		0453678B1937A112004F104A /* PoolTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolTableView.h; sourceTree = "<group>"; };
+		0453678C1937A112004F104A /* PoolTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolTableView.m; sourceTree = "<group>"; };
+>>>>>>> 3e7fc39d220d3f172221e6d78a55577c41f2a256
 		04DC56951937A95D00D13A30 /* HypnosisView.h.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HypnosisView.h.old; sourceTree = "<group>"; };
 		04DC56961937A95D00D13A30 /* HypnosisView.m.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HypnosisView.m.old; sourceTree = "<group>"; };
 		04DC569A1937A9B500D13A30 /* AppDelegate.h.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AppDelegate.h.old; sourceTree = "<group>"; };
@@ -154,6 +177,7 @@
 				04864DD1193E7EC100FB631E /* Storyboard.storyboard */,
 				04DC569D1937C40400D13A30 /* HypnosisView.h */,
 				04DC569E1937C40400D13A30 /* HypnosisView.m */,
+				0417B02F194081C60062AA13 /* Storyboard.storyboard */,
 				045367801937A0CC004F104A /* poolhalljungles */,
 				04536760193799BD004F104A /* Images.xcassets */,
 				04536755193799BD004F104A /* Supporting Files */,
@@ -197,18 +221,23 @@
 				04DC569B1937A9B500D13A30 /* AppDelegate.m.old */,
 				045367811937A112004F104A /* BallView.h */,
 				045367821937A112004F104A /* BallView.m */,
+<<<<<<< HEAD
 				045367831937A112004F104A /* GameView.h.old */,
 				045367841937A112004F104A /* GameView.m.old */,
+=======
+				045367831937A112004F104A /* GameView.h */,
+				045367841937A112004F104A /* GameView.m */,
+>>>>>>> 3e7fc39d220d3f172221e6d78a55577c41f2a256
 				04DC56951937A95D00D13A30 /* HypnosisView.h.old */,
 				04DC56961937A95D00D13A30 /* HypnosisView.m.old */,
-				045367851937A112004F104A /* GameViewController.h.old */,
-				045367861937A112004F104A /* GameViewController.m.old */,
-				045367871937A112004F104A /* InfoLayerView.h.old */,
-				045367881937A112004F104A /* InfoLayerView.m.old */,
-				045367891937A112004F104A /* Line.h.old */,
-				0453678A1937A112004F104A /* Line.m.old */,
-				0453678B1937A112004F104A /* PoolTableView.h.old */,
-				0453678C1937A112004F104A /* PoolTableView.m.old */,
+				045367851937A112004F104A /* GameViewController.h */,
+				045367861937A112004F104A /* GameViewController.m */,
+				045367871937A112004F104A /* InfoLayerView.h */,
+				045367881937A112004F104A /* InfoLayerView.m */,
+				045367891937A112004F104A /* Line.h */,
+				0453678A1937A112004F104A /* Line.m */,
+				0453678B1937A112004F104A /* PoolTableView.h */,
+				0453678C1937A112004F104A /* PoolTableView.m */,
 			);
 			path = poolhalljungles;
 			sourceTree = "<group>";
@@ -292,6 +321,7 @@
 				04864DD2193E7EC100FB631E /* Storyboard.storyboard in Resources */,
 				04ED7EE8193E6C65008EE5D2 /* TimeViewController.xib in Resources */,
 				04536761193799BD004F104A /* Images.xcassets in Resources */,
+				0417B030194081C60062AA13 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,17 +341,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DC569C1937A9B500D13A30 /* AppDelegate.m.old in Sources */,
-				045367901937A112004F104A /* InfoLayerView.m.old in Sources */,
+				045367901937A112004F104A /* InfoLayerView.m in Sources */,
 				04DC56981937A95D00D13A30 /* HypnosisView.m.old in Sources */,
-				045367911937A112004F104A /* Line.m.old in Sources */,
+				045367911937A112004F104A /* Line.m in Sources */,
 				0453675F193799BD004F104A /* AppDelegate.m in Sources */,
 				04ED7EE6193E68DF008EE5D2 /* TimeViewController.m in Sources */,
 				04DC569F1937C40400D13A30 /* HypnosisView.m in Sources */,
-				0453678E1937A112004F104A /* GameView.m.old in Sources */,
+				0453678E1937A112004F104A /* GameView.m in Sources */,
 				0453675B193799BD004F104A /* main.m in Sources */,
 				0453677F19379EA7004F104A /* HomeViewController.m in Sources */,
+<<<<<<< HEAD
 				0453678F1937A112004F104A /* GameViewController.m.old in Sources */,
 				045367921937A112004F104A /* PoolTableView.m.old in Sources */,
+=======
+				0453678F1937A112004F104A /* GameViewController.m in Sources */,
+				045367921937A112004F104A /* PoolTableView.m in Sources */,
+>>>>>>> 3e7fc39d220d3f172221e6d78a55577c41f2a256
 				0453678D1937A112004F104A /* BallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
