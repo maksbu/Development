@@ -1,6 +1,4 @@
 build/*
 .DS_Store
 *.xcuserdatad
-Sandbox/Sandbox.xcodeproj/project.xcworkspace/contents.xcworkspacedata
-
-Sandbox/Sandbox.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcworkspacedata
