@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HomeViewController.h"
+#import "TimeViewController.h"
 
 @implementation AppDelegate
 
@@ -16,8 +17,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    HomeViewController *hvc = [[HomeViewController alloc] init];
-    [[self window] setRootViewController:hvc];
+    //HomeViewController *hvc = [[HomeViewController alloc] init];
+    TimeViewController *tvc = [[TimeViewController alloc] init];
+    //[[self window] setRootViewController:hvc];
+    [[self window] setRootViewController:tvc];
+    
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
