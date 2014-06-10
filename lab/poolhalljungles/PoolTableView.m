@@ -1,0 +1,34 @@
+//
+//  PoolTableView.m
+//  PoolHallJungle
+//
+//  Created by Mac on 27.03.14.
+//  Copyright (c) 2014 maksburo. All rights reserved.
+//
+
+#import "PoolTableView.h"
+
+@implementation PoolTableView
+
+- (void)drawRect:(CGRect)incomingRect
+{
+				//CGRect poolTableFrame = CGRectMake(100, 100, 500, 500);
+				CGRect bounds = [self bounds];
+				CGContextRef ctx = UIGraphicsGetCurrentContext();
+				CGContextSetLineWidth(ctx, 5);
+				CGContextSetRGBStrokeColor(ctx, 0.6, 0.6, 0.6, 1.0);
+				//CGContextAddArc(ctx, 100, 100, 10, 0.0, M_PI * 2.0, YES);
+				CGContextAddRect(ctx, bounds);
+				CGContextStrokePath(ctx);
+}
+
+//- (id)initWithFrame:(CGRect)frame
+//{
+//    self = [super initWithFrame:frame];
+//    if (self) {
+//        // Initialization code
+//    }
+//    return self;
+//}
+
+@end
