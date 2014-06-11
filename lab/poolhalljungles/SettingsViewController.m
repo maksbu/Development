@@ -7,6 +7,7 @@
 //
 
 #import "SettingsViewController.h"
+#import "GameViewController.h"
 
 @interface SettingsViewController ()
 
@@ -30,10 +31,18 @@
     NSLog(@"SettingsViewController is load");
 }
 
+- (IBAction)switchChanged:(UISwitch *) sender {
+    BOOL setting = sender.isOn;
+    //[self.switchSettingItem setOn:setting animated:YES];
+    // блять, как передать сообщение другому контроллеру?
+    [GameViewController refreshSettingsFields];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

@@ -46,8 +46,9 @@ NSString *stringToDisplay;
     }
 
 - (void)refreshSettingsFields {
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    self.showInfoLayerLabel.text = [defaults objectForKey:kShowInfoLayerKey];
+    //NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    //self.showInfoLayerLabel.text = [defaults objectForKey:kShowInfoLayerKey];
+    NSLog(@"%@", self.showInfoLayerLabel.text);
     }
 
 - (void)viewDidAppear:(BOOL)animated {
