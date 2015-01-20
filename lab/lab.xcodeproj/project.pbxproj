@@ -40,7 +40,6 @@
 		04F08CDC1944566600E0D1BB /* PoolTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047274A21943145E000DC0CD /* PoolTableView.m */; };
 		04F08CDD1944E8EA00E0D1BB /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 047274A01943145E000DC0CD /* Line.m */; };
 		04F08CE01945108B00E0D1BB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F08CDF1945108B00E0D1BB /* SettingsViewController.m */; };
-		04F08CE219464CDE00E0D1BB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 04F08CE119464CDD00E0D1BB /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +78,7 @@
 		047274971943145E000DC0CD /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
 		047274981943145E000DC0CD /* GameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
 		047274991943145E000DC0CD /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		0472749A1943145E000DC0CD /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		0472749A1943145E000DC0CD /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
 		0472749D1943145E000DC0CD /* InfoLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoLayerView.h; sourceTree = "<group>"; };
 		0472749E1943145E000DC0CD /* InfoLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoLayerView.m; sourceTree = "<group>"; };
 		0472749F1943145E000DC0CD /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
@@ -89,7 +88,6 @@
 		047274A31943145E000DC0CD /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		04F08CDE1945108B00E0D1BB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		04F08CDF1945108B00E0D1BB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		04F08CE119464CDD00E0D1BB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = poolhalljungles/Settings.bundle; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +153,6 @@
 				04727473194313CF000DC0CD /* Images.xcassets */,
 				047274921943145E000DC0CD /* poolhalljungles */,
 				04727468194313CF000DC0CD /* Supporting Files */,
-				04F08CE119464CDD00E0D1BB /* Settings.bundle */,
 			);
 			path = lab;
 			sourceTree = "<group>";
@@ -259,7 +256,7 @@
 		04727456194313CF000DC0CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = MAKSBU;
 				TargetAttributes = {
 					04727478194313CF000DC0CD = {
@@ -298,7 +295,6 @@
 				047274B41943145E000DC0CD /* Storyboard.storyboard in Resources */,
 				047274A51943145E000DC0CD /* AppDelegate.h.old in Resources */,
 				047274B21943145E000DC0CD /* PoolTableView.h in Resources */,
-				04F08CE219464CDE00E0D1BB /* Settings.bundle in Resources */,
 				047274B31943145E000DC0CD /* PoolTableView.m in Resources */,
 				047274B11943145E000DC0CD /* Line.m in Resources */,
 				047274A91943145E000DC0CD /* GameView.m in Resources */,
@@ -379,7 +375,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -419,7 +414,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -478,7 +472,6 @@
 		0472748E194313D0000DC0CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lab.app/lab";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -501,7 +494,6 @@
 		0472748F194313D0000DC0CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/lab.app/lab";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

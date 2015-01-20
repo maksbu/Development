@@ -1,0 +1,140 @@
+body {
+  min-width: none;
+  min-height: nonepx;
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.container {
+  position: relative;
+  float: left;
+  z-index: 6;
+  width: 100%;
+  min-width: none;
+  height: 562px;
+  min-height: nonepx;
+  margin-top: 337px;
+  background-color: rgba(240, 240, 240, 0.87);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.element {
+  float: left;
+  width: 32.4%;
+  height: 169px;
+  margin: 49px 0 0 10%;
+  padding: 13px;
+  background-color: rgb(222, 222, 222);
+}
+
+.righttextconteiner {
+  float: left;
+  width: 46%;
+  height: 169px;
+  margin: 49px 0 0 1.5989583333%;
+  background-color: rgb(222, 222, 222);
+}
+
+.text {
+  float: left;
+  width: 100.0522445042%;
+  min-height: 133px;
+  margin-left: -0.04307%;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+.textfloatleft {
+  float: left;
+  width: 33.6956521739%;
+  min-height: 134px;
+  margin-top: 18px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
+._element {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  min-width: none;
+  height: 337px;
+  min-height: nonepx;
+  background-color: rgb(152, 75, 75);
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  -ms-transform: none;
+  transform: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -o-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.textfloatleft-1 {
+  margin-left: 3.0825407608%;
+}
+
+.textfloatleft-2 {
+  margin-left: 4.0930706521%;
+}
+
+@media(max-width: 970px) {
+  .container {
+    position: relative;
+    z-index: 6;
+    margin-top: 338px;
+  }
+
+  .element .text {
+    width: 100.0546909958%;
+    margin-left: -0.03252%;
+  }
+
+  .righttextconteiner .textfloatleft {
+    width: 33.6951954055%;
+  }
+}
