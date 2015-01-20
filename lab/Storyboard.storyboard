@@ -96,9 +96,12 @@
                                     <segue destination="0fn-wB-ArU" kind="modal" modalTransitionStyle="crossDissolve" id="ay4-7o-6hW"/>
                                 </connections>
                             </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RNt-Qe-Lie">
-                                <rect key="frame" x="556" y="368" width="51" height="31"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RNt-Qe-Lie">
+                                <rect key="frame" x="553" y="368" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchChanged:" destination="ISn-7p-nh7" eventType="valueChanged" id="8v4-I8-oJN"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Show info layer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uW0-Tj-Ccd">
                                 <rect key="frame" x="419" y="373" width="118" height="21"/>
@@ -113,6 +116,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="h10-PU-cYa"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="switchSettingItem" destination="RNt-Qe-Lie" id="Xqy-qK-jfo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Es1-MV-YgH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

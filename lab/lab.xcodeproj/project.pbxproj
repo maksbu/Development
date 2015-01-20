@@ -40,6 +40,10 @@
 		04F08CDC1944566600E0D1BB /* PoolTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047274A21943145E000DC0CD /* PoolTableView.m */; };
 		04F08CDD1944E8EA00E0D1BB /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 047274A01943145E000DC0CD /* Line.m */; };
 		04F08CE01945108B00E0D1BB /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F08CDF1945108B00E0D1BB /* SettingsViewController.m */; };
+<<<<<<< HEAD
+=======
+		04F08CE519479D1800E0D1BB /* SettingsStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F08CE419479D1800E0D1BB /* SettingsStore.m */; };
+>>>>>>> FETCH_HEAD
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +92,11 @@
 		047274A31943145E000DC0CD /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = ../Storyboard.storyboard; sourceTree = "<group>"; };
 		04F08CDE1945108B00E0D1BB /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		04F08CDF1945108B00E0D1BB /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		04F08CE319479D1800E0D1BB /* SettingsStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsStore.h; path = lab/SettingsStore.h; sourceTree = SOURCE_ROOT; };
+		04F08CE419479D1800E0D1BB /* SettingsStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsStore.m; path = lab/SettingsStore.m; sourceTree = SOURCE_ROOT; };
+>>>>>>> FETCH_HEAD
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +202,8 @@
 				0472749A1943145E000DC0CD /* GameViewController.m */,
 				04F08CDE1945108B00E0D1BB /* SettingsViewController.h */,
 				04F08CDF1945108B00E0D1BB /* SettingsViewController.m */,
+				04F08CE319479D1800E0D1BB /* SettingsStore.h */,
+				04F08CE419479D1800E0D1BB /* SettingsStore.m */,
 				0472749D1943145E000DC0CD /* InfoLayerView.h */,
 				0472749E1943145E000DC0CD /* InfoLayerView.m */,
 				047274971943145E000DC0CD /* GameView.h */,
@@ -322,6 +333,7 @@
 			files = (
 				04F08CDC1944566600E0D1BB /* PoolTableView.m in Sources */,
 				04F08CDB1944565A00E0D1BB /* InfoLayerView.m in Sources */,
+				04F08CE519479D1800E0D1BB /* SettingsStore.m in Sources */,
 				04F08CDA1944564600E0D1BB /* GameView.m in Sources */,
 				04F08CD91944563500E0D1BB /* GameViewController.m in Sources */,
 				04F08CDD1944E8EA00E0D1BB /* Line.m in Sources */,

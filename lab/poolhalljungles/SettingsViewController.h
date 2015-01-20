@@ -10,4 +10,8 @@
 
 @interface SettingsViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISwitch *switchSettingItem;
+
+- (IBAction)switchChanged:(id)sender;
+
 @end
