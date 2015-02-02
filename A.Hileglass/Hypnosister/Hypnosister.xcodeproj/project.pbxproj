@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		152029731A68886100BDBDBE /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 152029721A68886100BDBDBE /* BNRHypnosisView.m */; };
+		153752B61A71B5EF0058102A /* Icons to Export.png in Resources */ = {isa = PBXBuildFile; fileRef = 153752B51A71B5EF0058102A /* Icons to Export.png */; };
+		153752B81A76C8F40058102A /* busi.png in Resources */ = {isa = PBXBuildFile; fileRef = 153752B71A76C8F40058102A /* busi.png */; };
 		158F3F351A5D5E9F00E15705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158F3F341A5D5E9F00E15705 /* main.m */; };
 		158F3F381A5D5E9F00E15705 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158F3F371A5D5E9F00E15705 /* AppDelegate.m */; };
 		158F3F3B1A5D5E9F00E15705 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158F3F3A1A5D5E9F00E15705 /* ViewController.m */; };
@@ -30,6 +32,8 @@
 /* Begin PBXFileReference section */
 		152029711A68886100BDBDBE /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRHypnosisView.h; sourceTree = "<group>"; };
 		152029721A68886100BDBDBE /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRHypnosisView.m; sourceTree = "<group>"; };
+		153752B51A71B5EF0058102A /* Icons to Export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icons to Export.png"; path = "../../../../Dropbox/WORK.BOX/TTMS/Releases/Icons to Export.png"; sourceTree = "<group>"; };
+		153752B71A76C8F40058102A /* busi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busi.png; sourceTree = SOURCE_ROOT; };
 		158F3F2F1A5D5E9F00E15705 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		158F3F331A5D5E9F00E15705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158F3F341A5D5E9F00E15705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				158F3F371A5D5E9F00E15705 /* AppDelegate.m */,
 				152029711A68886100BDBDBE /* BNRHypnosisView.h */,
 				152029721A68886100BDBDBE /* BNRHypnosisView.m */,
+				153752B71A76C8F40058102A /* busi.png */,
+				153752B51A71B5EF0058102A /* Icons to Export.png */,
 				158F3F391A5D5E9F00E15705 /* ViewController.h */,
 				158F3F3A1A5D5E9F00E15705 /* ViewController.m */,
 				158F3F3C1A5D5E9F00E15705 /* Main.storyboard */,
@@ -205,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				158F3F3E1A5D5E9F00E15705 /* Main.storyboard in Resources */,
+				153752B81A76C8F40058102A /* busi.png in Resources */,
 				158F3F431A5D5E9F00E15705 /* LaunchScreen.xib in Resources */,
 				158F3F401A5D5E9F00E15705 /* Images.xcassets in Resources */,
+				153752B61A71B5EF0058102A /* Icons to Export.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
