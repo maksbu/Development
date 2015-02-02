@@ -10,29 +10,29 @@
 	<string>testlab</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</key>
+		<key>368002E5862AECB9880203A680CEB3D7EABCD00E</key>
 		<string>https://github.com/maksbu/Development.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>applab/testlab.xcodeproj/project.xcworkspace</string>
+	<string>applab/testlab.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</key>
+		<key>368002E5862AECB9880203A680CEB3D7EABCD00E</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/maksbu/Development.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</string>
+	<string>368002E5862AECB9880203A680CEB3D7EABCD00E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9EF2BF54-DA0C-44FB-8FD9-E5936C7335A6</string>
+			<string>368002E5862AECB9880203A680CEB3D7EABCD00E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Development</string>
 		</dict>

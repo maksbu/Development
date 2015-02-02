@@ -30,6 +30,7 @@
 		04D43E3818E62DAF0031F3FC /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3718E62DAF0031F3FC /* Line.m */; };
 		04D43E3A191014A60031F3FC /* GameView.m.old in Resources */ = {isa = PBXBuildFile; fileRef = 04D43E39191014A60031F3FC /* GameView.m.old */; };
 		04D43E3D19195E9B0031F3FC /* InfoLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D43E3C19195E9B0031F3FC /* InfoLayerView.m */; };
+		15C822441A8006DF00F13B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CFAAFF18D62488002A63AC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -261,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = "";
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = maksburo;
 				TargetAttributes = {
 					04CFAAD618CA3733002A63AC = {
@@ -305,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CFAAE318CA3734002A63AC /* InfoPlist.strings in Resources */,
+				15C822441A8006DF00F13B56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +372,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -410,7 +411,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -473,7 +473,6 @@
 		04CFAAEC18CA3734002A63AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poolhall.app/Poolhall";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -496,7 +495,6 @@
 		04CFAAED18CA3734002A63AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Poolhall.app/Poolhall";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
