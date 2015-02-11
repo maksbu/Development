@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Инициируем
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Инициируем окно приложения
     
     CGRect firstFrame = self.window.bounds; // Создаем структуру равную границам текущего окна
     
@@ -33,23 +33,6 @@
     
     return YES;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  Hypnosister
+//  HypnoNerd
 //
-//  Created by maksbu on 07.01.15.
+//  Created by maksbu on 08.02.15.
 //  Copyright (c) 2015 MAKSBU. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "BNRHypnosisView.h"
+//#import "LabeledView.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,41 +18,47 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    
-//    CGRect firstFrame = self.window.bounds;
-//    BNRHypnosisView *firstView = [[BNRHypnosisView alloc] initWithFrame:firstFrame];
-//    [self.window addSubview:firstView];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Инициируем окно приложения
 
-    // Create CGRects for frames
-    CGRect screenRect = self.window.bounds;
-    CGRect bigRect = screenRect;
-    bigRect.size.width *= 2.0;
-    //bigRect.size.height *= 2.0;
     
-    // Create a screen-sized scroll view and add it to the window
-    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:screenRect];
-    //scrollView.pagingEnabled = YES;
-    [self.window addSubview:scrollView];
+    ViewController *hvc = [[ViewController alloc] init];
+    self.window.rootViewController = hvc;
     
-    // Create a screen-sized hypnosis view and add it to the scroll view
-    BNRHypnosisView *hypnosisView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
-    [scrollView addSubview:hypnosisView];
-    // Add a second screen-sized hypnosis view just off screen to the right
-    screenRect.origin.x += screenRect.size.width;
-    BNRHypnosisView *anotherView = [[BNRHypnosisView alloc] initWithFrame:screenRect];
-    [scrollView addSubview:anotherView];
+    // Инициализируем виды
+//    LabeledView *rootView1 = [[LabeledView alloc] initWithFrame:self.window.bounds];
+//    LabeledView *rootView2 = [[LabeledView alloc] initWithFrame:self.window.bounds];
+//    LabeledView *firstView = [[LabeledView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    LabeledView *secondView = [[LabeledView alloc] initWithFrame:CGRectMake(150, 150, 100, 100)];
     
-    // Tell the scroll view how big its content area is
-    scrollView.contentSize = bigRect.size;
+//    rootView1.backgroundColor = [UIColor redColor];
+//    rootView1.textAlignment = NSTextAlignmentCenter;
+//    rootView1.text = @"rootView";
+//    rootView2.backgroundColor = [UIColor blueColor];
+//    rootView2.textAlignment = NSTextAlignmentCenter;
+//    rootView2.text = @"rootView";
+//    firstView.backgroundColor = [UIColor orangeColor];
+//    firstView.textAlignment = NSTextAlignmentCenter;
+//    firstView.text = @"firstView";
+//    secondView.backgroundColor = [UIColor greenColor];
+//    secondView.textAlignment = NSTextAlignmentCenter;
+//    secondView.text = @"secondView";
+    
+//    [self.window addSubview:rootView1];
+//    [rootView addSubview:firstView];
+//    [rootView addSubview:secondView];
     
     
-    self.window.backgroundColor = [UIColor whiteColor];
+//    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(10, 10, 100, 40)];
+//    label.text = @"Custom Label";
+//    [label setFont:[UIFont boldSystemFontOfSize:16]];
+//    [rootView addSubview:label];
     
-    [self.window makeKeyAndVisible];
+    
+    
+    // self.window.backgroundColor = [UIColor blueColor]; // Зачем-то устанавливаем цвет бэкграунд окна
+    [self.window makeKeyAndVisible]; // Делаем ключевым и видимым
     
     return YES;
 }

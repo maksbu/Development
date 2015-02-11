@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		15C822891A800E4300F13B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C822881A800E4300F13B56 /* main.m */; };
 		15C8228C1A800E4300F13B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8228B1A800E4300F13B56 /* AppDelegate.m */; };
-		15C8228F1A800E4300F13B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8228E1A800E4300F13B56 /* ViewController.m */; };
+		15C8228F1A800E4300F13B56 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C8228E1A800E4300F13B56 /* MainViewController.m */; };
 		15C822921A800E4300F13B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C822901A800E4300F13B56 /* Main.storyboard */; };
 		15C822941A800E4300F13B56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C822931A800E4300F13B56 /* Images.xcassets */; };
 		15C822971A800E4300F13B56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C822951A800E4300F13B56 /* LaunchScreen.xib */; };
@@ -40,8 +40,8 @@
 		15C822881A800E4300F13B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15C8228A1A800E4300F13B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15C8228B1A800E4300F13B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		15C8228D1A800E4300F13B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		15C8228E1A800E4300F13B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15C8228D1A800E4300F13B56 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		15C8228E1A800E4300F13B56 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		15C822911A800E4300F13B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15C822931A800E4300F13B56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		15C822961A800E4300F13B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -108,8 +108,8 @@
 				15C822AF1A801CD800F13B56 /* Poolhall.old */,
 				15C8228A1A800E4300F13B56 /* AppDelegate.h */,
 				15C8228B1A800E4300F13B56 /* AppDelegate.m */,
-				15C8228D1A800E4300F13B56 /* ViewController.h */,
-				15C8228E1A800E4300F13B56 /* ViewController.m */,
+				15C8228D1A800E4300F13B56 /* MainViewController.h */,
+				15C8228E1A800E4300F13B56 /* MainViewController.m */,
 				15C822AC1A80129700F13B56 /* GameMainView.h */,
 				15C822AD1A80129700F13B56 /* GameMainView.m */,
 				15C822901A800E4300F13B56 /* Main.storyboard */,
@@ -276,7 +276,7 @@
 			files = (
 				15C822BE1A801CD800F13B56 /* GameView.m in Sources */,
 				15C822C21A801CD800F13B56 /* Line.m in Sources */,
-				15C8228F1A800E4300F13B56 /* ViewController.m in Sources */,
+				15C8228F1A800E4300F13B56 /* MainViewController.m in Sources */,
 				15C822C01A801CD800F13B56 /* GameViewController.m in Sources */,
 				15C8228C1A800E4300F13B56 /* AppDelegate.m in Sources */,
 				15C822C31A801CD800F13B56 /* PoolTableView.m in Sources */,
@@ -476,6 +476,7 @@
 				15C822A81A800E4300F13B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15C822A91A800E4300F13B56 /* Build configuration list for PBXNativeTarget "Poolhall JunglesTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				15C822AB1A800E4300F13B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

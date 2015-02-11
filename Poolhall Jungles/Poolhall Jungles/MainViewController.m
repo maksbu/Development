@@ -1,18 +1,26 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  Poolhall Jungles
 //
 //  Created by maksbu on 02.02.15.
 //  Copyright (c) 2015 MAKSBU. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
+
+- (void)loadView
+{
+    // Create a view
+    BNRHypnosisView *backgroundView = [[BNRHypnosisView alloc] init];
+    // Set it as *the* view of this view controller
+    self.view = backgroundView;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
