@@ -8,7 +8,6 @@
 
 #import "AppDelegate.h"
 //#import "LabeledView.h"
-#import "ViewController.h"
 #import "MainViewController.h"
 
 @interface AppDelegate ()
@@ -24,7 +23,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]; // Инициируем окно приложения
 
     
-    ViewController *hvc = [[ViewController alloc] init];
     MainViewController *hvc = [[MainViewController alloc] init];
     self.window.rootViewController = hvc;
     
